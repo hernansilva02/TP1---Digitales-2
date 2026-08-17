@@ -13,14 +13,24 @@ para determinar el nivel de corriente y la tensión es fija 220 V. S = V x I
 
 ## Cúal es el output
 - Reporte de los datos por la terminal (USART) <br>
-Formato:<br>
+Formato:
 
-1- 2200W 5seg o 10.0A 5seg o $6100 5seg.<br>
-2- 2200W 10seg o 10.0A 10seg o $12200 10seg.<br>
-3- 2200W 15seg o 10.0A 15seg o $18300 15seg.<br>
-4- 2200W 20seg o 10.0A 20seg o $24400 20seg.<br>
+
+1- 2200W 5seg o 10.0A 5seg o $6100 5seg.
+
+
+2- 2200W 10seg o 10.0A 10seg o $12200 10seg.
+
+
+3- 2200W 15seg o 10.0A 15seg o $18300 15seg.
+
+
+4- 2200W 20seg o 10.0A 20seg o $24400 20seg.
+
 
 - LED integrado de la placa
+
+
 | Color    | Indicacion                      |
 | :-------:| :-----------------------------: |
 | Azul     | Corrriente entre 1.5 A y 4.5 A  |

@@ -21,6 +21,7 @@ Formato:<br>
 4- 2200W 20seg o 10.0A 20seg o $24400 20seg.<br>
 
 - LED integrado de la placa<br>
+
 | Color    | Indicacion                      |
 | :-------:| :-----------------------------: |
 | Azul     | Corrriente entre 1.5 A y 4.5 A  |

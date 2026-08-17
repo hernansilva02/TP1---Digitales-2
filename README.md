@@ -12,7 +12,9 @@ para determinar el nivel de corriente y la tensión es fija 220 V. S = V x I
 
 
 ## Cúal es el output
-- Reporte de los datos por la terminal (USART) <br>
+- Reporte de los datos por la terminal (USART)
+
+
 Formato:
 
 
@@ -36,3 +38,11 @@ Formato:
 | Azul     | Corrriente entre 1.5 A y 4.5 A  |
 | Verde    | Corriente entre 5.25 A y 9.75 A |
 | Rojo     | Corriente mayor a 10.5 A        |
+
+## How it works
+Un potenciometro simula ser el electrodomestico, variandome la tension desde +VDD (3.3 V) hasta 0 V. Entonces necesito:
+
+- Tengo que usar el ADC, necesito configurarlo en modo interrupcion o en modo
+  básico? Creo que en modo interrupt para que cada vez que haya un result  de una
+  secuencia dispare el ouput por USART.
+

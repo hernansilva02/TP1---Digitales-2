@@ -48,9 +48,6 @@ int main() {
             currentFormat = Change_Format();
         }
         Rcv_Command();
-        if (CommandReady) {
-            CommandReady = false;
-        }
         Send_Output(amps, report_interval_acc);
         report_interval_acc += report_interval;
         SysDelay(report_interval * 1000U); // report_interval is in seconds

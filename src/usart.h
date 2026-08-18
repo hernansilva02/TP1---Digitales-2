@@ -4,7 +4,6 @@
 #include "button.h"
 #include <stdint.h>
 
-extern volatile bool CommandReady;
 extern char CommandBuffer[16];
 extern uint8_t report_interval;
 

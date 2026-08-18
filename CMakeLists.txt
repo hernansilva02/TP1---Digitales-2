@@ -17,6 +17,8 @@ endif()
 set(CMAKE_EXECUTABLE_LIBRARY_PREFIX)
 set(CMAKE_EXECUTABLE_LIBRARY_SUFFIX)
 
+set(CMAKE_EXPORT_COMPILE_COMMANDS ON) # compile options for clangd
+
 # CURRENT DIRECTORY
 set(ProjDirPath ${CMAKE_CURRENT_SOURCE_DIR})
 
@@ -71,6 +73,7 @@ ADD_CUSTOM_COMMAND(TARGET ${MCUX_SDK_PROJECT_NAME} POST_BUILD COMMAND ${CMAKE_OB
 -Obinary ${EXECUTABLE_OUTPUT_PATH}/${MCUX_SDK_PROJECT_NAME} ${EXECUTABLE_OUTPUT_PATH}/test.bin)
 
 set_target_properties(${MCUX_SDK_PROJECT_NAME} PROPERTIES ADDITIONAL_CLEAN_FILES "output.map;${EXECUTABLE_OUTPUT_PATH}/test.bin")
+
 
 # wrap all libraries with -Wl,--start-group -Wl,--end-group to prevent link order issue
 group_link_libraries()

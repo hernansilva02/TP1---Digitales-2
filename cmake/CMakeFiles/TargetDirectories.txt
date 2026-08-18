@@ -1,0 +1,3 @@
+/mnt/WDbk/Users/Hernan/Documents/UTN/2026/digitales2/real_tp1/cmake/CMakeFiles/test.elf.dir
+/mnt/WDbk/Users/Hernan/Documents/UTN/2026/digitales2/real_tp1/cmake/CMakeFiles/edit_cache.dir
+/mnt/WDbk/Users/Hernan/Documents/UTN/2026/digitales2/real_tp1/cmake/CMakeFiles/rebuild_cache.dir

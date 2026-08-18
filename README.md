@@ -46,3 +46,10 @@ Un potenciometro simula ser el electrodomestico, variandome la tension desde +VD
   básico? Creo que en modo interrupt para que cada vez que haya un result  de una
   secuencia dispare el ouput por USART.
 
+
+Básicamente el flujo es el siguiente
+
+
+Systick dispara el software trigger del adc -> ADC toma la muestra de corriente y la
+devuelve -> el switch case decide que led prender -> Leo el formato actual (que cambia con
+el botón) -> mando output por usart

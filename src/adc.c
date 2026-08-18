@@ -33,5 +33,5 @@ void ADC_SEQA_IRQn(void) {
 
 // algorithm implementation
 float adc_volts_to_amps(void) {
-    return conversionResults.result * 4.54;
+    return conversionResults.result * ADC_TO_AMPS_FACTOR;
 }

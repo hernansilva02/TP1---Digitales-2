@@ -4,7 +4,7 @@
 #include "fsl_common.h"
 
 static adc_result_info_t conversionResults;
-bool volatile conversionReady;
+volatile bool conversionReady = false;
 
 void adc_config() {
     adc_config_t AdcConfigStruct;
@@ -23,7 +23,7 @@ void adc_config() {
     ADC_EnableInterrupts(ADC0, kADC_ConvSeqAInterruptEnable);
 }
 
-void ADC_SEQA_IRQn(void) {
+void ADC0_SEQA_IRQHandler(void) {
     if (kADC_ConvSeqAInterruptFlag & ADC_GetStatusFlags(ADC0)) {
         ADC_GetChannelConversionResult(ADC0, ADC_CHAN_NUMB, &conversionResults);
         ADC_ClearStatusFlags(ADC0, kADC_ConvSeqAInterruptFlag);
@@ -31,7 +31,6 @@ void ADC_SEQA_IRQn(void) {
     }
 }
 
-// algorithm implementation
 float adc_volts_to_amps(void) {
     return conversionResults.result * ADC_TO_AMPS_FACTOR;
 }

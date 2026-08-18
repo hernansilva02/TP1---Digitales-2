@@ -2,6 +2,7 @@
 #include <stdbool.h>
 #include "adc.h"
 #include "board.h"
+#include "fsl_adc.h"
 #include "peripherals.h"
 #include "pin_mux.h"
 #include "clock_config.h"
@@ -10,9 +11,11 @@
 #include "fsl_gpio.h"
 #include "fsl_common.h"
 #include "src/adc.h"
+#include "src/timer.h"
+#include "src/leds.h"
+#include "src/button.h"
 
-void BOARD_InitHardware(void)
-{
+void BOARD_InitHardware(void) {
     /* Initialize the pins. */
     BOARD_InitBootPins();
 
@@ -24,13 +27,24 @@ void BOARD_InitHardware(void)
 }
 
 int main() {
+    float amps;
+    const uint32_t delay = 5000; // Delay provided by user via USART. Testing only
     BOARD_InitHardware();
+    leds_intialize();
+    Pint_Config();
     adc_config();
-    EnableIRQ(ADC_SEQA_IRQn);
+    NVIC_EnableIRQ(ADC0_SEQA_IRQn);
     while (1) {
-        while (!conversionReady);
-
-        float amps = adc_volts_to_amps();
-        conversionReady = false;
+        ADC_DoSoftwareTriggerConvSeqA(ADC0);
+        if (conversionReady) {
+            amps = adc_volts_to_amps();
+            conversionReady = false;
+        }
+        select_led_on(amps);
+        if (buttonReady) {
+            buttonReady = false;
+            Read_Button_State()
+        }
+        SysDelay(delay);
     }
 }

@@ -1,10 +1,15 @@
-#include "fsl_common.h"
-#include <stdint.h>
+#include "timer.h"
+#include "fsl_adc.h"
 
-volatile uint32_t msTicks = 0;
+static volatile uint32_t msTicks = 0;
 
 void Systick_Handler(void) {
-    if (msTicks) {
+    if (msTicks != 0U) {
         msTicks--;
     }
+}
+
+void SysDelay(uint32_t delay) {
+    msTicks = delay;
+    while (msTicks != 0U);
 }

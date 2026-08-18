@@ -33,7 +33,7 @@ Formato:
 - LED integrado de la placa
 
 
-| Color    | Indicacion                      |
+| Color    | Indicación                      |
 | :-------:| :-----------------------------: |
 | Azul     | Corrriente entre 1.5 A y 4.5 A  |
 | Verde    | Corriente entre 5.25 A y 9.75 A |

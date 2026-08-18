@@ -15,6 +15,7 @@
 #include "src/timer.h"
 #include "src/leds.h"
 #include "src/button.h"
+#include "src/usart.h"
 
 void BOARD_InitHardware(void) {
     /* Initialize the pins. */
@@ -29,8 +30,7 @@ void BOARD_InitHardware(void) {
 
 int main() {
     float amps;
-    uint16_t time = 0U;
-    const uint32_t delay = 5000; // Delay provided by user via USART. Testing only
+    uint8_t report_interval_acc = 0;
     BOARD_InitHardware();
     leds_intialize();
     Pint_Config();
@@ -47,8 +47,12 @@ int main() {
             buttonReady = false;
             currentFormat = Change_Format();
         }
-        time += 5U;
-        Send_Output(amps, time);
-        SysDelay(delay);
+        Rcv_Command();
+        if (CommandReady) {
+            CommandReady = false;
+        }
+        Send_Output(amps, report_interval_acc);
+        report_interval_acc += report_interval;
+        SysDelay(report_interval * 1000U); // report_interval is in seconds
     }
 }

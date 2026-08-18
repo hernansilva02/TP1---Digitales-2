@@ -4,7 +4,12 @@
 #include "button.h"
 #include <stdint.h>
 
+extern volatile bool CommandReady;
+extern char CommandBuffer[16];
+extern uint8_t report_interval;
+
 void USART_Inititalization(void);
 void Send_Output(float amps, uint16_t time);
+void Rcv_Command();
 
 #endif // MY_USRT_H

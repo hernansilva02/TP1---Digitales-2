@@ -2,8 +2,9 @@
 #define MY_USART_H
 #include "fsl_usart.h"
 #include "button.h"
+#include <stdint.h>
 
-status_t USART_Inititalization(void);
-void Send_Output(output_format_t format);
+void USART_Inititalization(void);
+void Send_Output(float amps, uint16_t time);
 
 #endif // MY_USRT_H

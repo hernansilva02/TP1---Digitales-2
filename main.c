@@ -3,6 +3,7 @@
 #include "adc.h"
 #include "board.h"
 #include "fsl_adc.h"
+#include "mnt/WDbk/Users/Hernan/Documents/UTN/2026/digitales2/real_tp1/src/usart.h"
 #include "peripherals.h"
 #include "pin_mux.h"
 #include "clock_config.h"
@@ -28,6 +29,7 @@ void BOARD_InitHardware(void) {
 
 int main() {
     float amps;
+    uint16_t time = 0U;
     const uint32_t delay = 5000; // Delay provided by user via USART. Testing only
     BOARD_InitHardware();
     leds_intialize();
@@ -43,8 +45,10 @@ int main() {
         select_led_on(amps);
         if (buttonReady) {
             buttonReady = false;
-            Read_Button_State()
+            currentFormat = Change_Format();
         }
+        time += 5U;
+        Send_Output(amps, time);
         SysDelay(delay);
     }
 }

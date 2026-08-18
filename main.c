@@ -1,9 +1,7 @@
 #include <stdint.h>
 #include <stdbool.h>
-#include "adc.h"
 #include "board.h"
 #include "fsl_adc.h"
-#include "mnt/WDbk/Users/Hernan/Documents/UTN/2026/digitales2/real_tp1/src/usart.h"
 #include "peripherals.h"
 #include "pin_mux.h"
 #include "clock_config.h"
@@ -13,7 +11,7 @@
 #include "fsl_common.h"
 #include "src/adc.h"
 #include "src/timer.h"
-#include "src/leds.h"
+#include "src/led.h"
 #include "src/button.h"
 #include "src/usart.h"
 
@@ -32,9 +30,10 @@ int main() {
     float amps;
     uint8_t report_interval_acc = 0;
     BOARD_InitHardware();
-    leds_intialize();
-    Pint_Config();
+    leds_initialize();
+    Pint_Initialize();
     adc_config();
+    USART_Inititalization();
     NVIC_EnableIRQ(ADC0_SEQA_IRQn);
     while (1) {
         ADC_DoSoftwareTriggerConvSeqA(ADC0);

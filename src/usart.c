@@ -15,6 +15,7 @@ uint8_t RxData;
 char CommandBuffer[16] = {0};
 
 static void usart_callback_func(USART_Type *base, usart_handle_t *handle, status_t status, void *userData) {
+    (void)userData;
     if (status == kStatus_USART_RxIdle) {
         RxOngoing = false;
         RxBufferEmpty = false;
@@ -36,7 +37,7 @@ void USART_Inititalization(void) {
 
     USART_Init(USART0, &config, CLOCK_GetFreq(kCLOCK_MainClk));
 
-    USART_TransferCreateHandle(USART0, &usart_handle, usart_callback_func, void *userData);
+    USART_TransferCreateHandle(USART0, &usart_handle, usart_callback_func, NULL);
     rcv.data = &RxData;
     rcv.dataSize = 1;
 }
@@ -54,9 +55,9 @@ void Rcv_Command() {
             CommandBuffer[command_idx] = '\0';
             command_idx = 0;
             if (!strcmp(CommandBuffer, "time 5")) {
-                time = 5;
+                report_interval = 5;
             } else if (!strcmp(CommandBuffer, "time 10")) {
-                time = 10;
+                report_interval = 10;
             } else {
                 uint8_t command_not_found[] = "Error. Unknown command\n";
                 USART_WriteBlocking(USART0, command_not_found, sizeof(command_not_found) - 1);
@@ -77,20 +78,20 @@ void Send_Output(float amps, uint16_t report_interval_acc) {
     uint8_t buffer[40];
     switch (currentFormat) {
         case FORMAT_AMPS:
-            len = snprintf(buffer, sizeof(buffer), "%.2f A %u seg\r\n", amps, time);
+            len = snprintf(buffer, sizeof(buffer), "%.2f A %u seg\r\n", amps, report_interval_acc);
             USART_WriteBlocking(USART0, buffer, len);
             break;
         case FORMAT_WATTS: 
         {
             float watts = 220 * amps;
-            len = snprintf(buffer, sizeof(buffer), "%.2f A %u seg\r\n", watts, time);
+            len = snprintf(buffer, sizeof(buffer), "%.2f A %u seg\r\n", watts, report_interval_acc);
             USART_WriteBlocking(USART0, buffer, len);
             break;
         }
         case FORMAT_COST:
         {
-            float cost = (220.0f * amps) * time/3600.0f * WH_PRICE;
-            len = snprintf(buffer, sizeof(buffer), "$%.2f A %u seg\r\n", cost, time);
+            float cost = (220.0f * amps) * report_interval/3600.0f * WH_PRICE;
+            len = snprintf(buffer, sizeof(buffer), "$%.2f A %u seg\r\n", cost, report_interval_acc);
             USART_WriteBlocking(USART0, buffer, len);
             break;
         }

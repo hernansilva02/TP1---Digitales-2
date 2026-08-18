@@ -1,0 +1,43 @@
+CMakeFiles/tp1.elf.dir/home/hernan/SDK_25_06_00_LPC845BREAKOUT/devices/LPC845/system_LPC845.c.obj: \
+ /home/hernan/SDK_25_06_00_LPC845BREAKOUT/devices/LPC845/system_LPC845.c \
+ mcux_config.h /usr/lib/gcc/arm-none-eabi/15.2.0/include/stdint.h \
+ /usr/arm-none-eabi/include/stdint.h \
+ /usr/arm-none-eabi/include/machine/_default_types.h \
+ /usr/arm-none-eabi/include/sys/features.h \
+ /usr/arm-none-eabi/include/_newlib_version.h \
+ /usr/arm-none-eabi/include/sys/_intsup.h \
+ /usr/arm-none-eabi/include/sys/_stdint.h \
+ /home/hernan/SDK_25_06_00_LPC845BREAKOUT/devices/LPC845/fsl_device_registers.h \
+ /home/hernan/SDK_25_06_00_LPC845BREAKOUT/devices/LPC845/LPC845.h \
+ /home/hernan/SDK_25_06_00_LPC845BREAKOUT/devices/LPC845/periph2/PERI_ACOMP.h \
+ /home/hernan/SDK_25_06_00_LPC845BREAKOUT/devices/LPC845/./LPC845_COMMON.h \
+ /home/hernan/SDK_25_06_00_LPC845BREAKOUT/CMSIS/Core/Include/./core_cm0plus.h \
+ /home/hernan/SDK_25_06_00_LPC845BREAKOUT/CMSIS/Core/Include/./cmsis_version.h \
+ /home/hernan/SDK_25_06_00_LPC845BREAKOUT/CMSIS/Core/Include/./cmsis_compiler.h \
+ /home/hernan/SDK_25_06_00_LPC845BREAKOUT/CMSIS/Core/Include/./cmsis_gcc.h \
+ /usr/lib/gcc/arm-none-eabi/15.2.0/include/arm_acle.h \
+ /home/hernan/SDK_25_06_00_LPC845BREAKOUT/CMSIS/Core/Include/./m-profile/cmsis_gcc_m.h \
+ /home/hernan/SDK_25_06_00_LPC845BREAKOUT/devices/LPC845/./system_LPC845.h \
+ /home/hernan/SDK_25_06_00_LPC845BREAKOUT/devices/LPC845/./LPC845_features.h \
+ /home/hernan/SDK_25_06_00_LPC845BREAKOUT/devices/LPC845/periph2/PERI_ADC.h \
+ /home/hernan/SDK_25_06_00_LPC845BREAKOUT/devices/LPC845/periph2/PERI_CAPT.h \
+ /home/hernan/SDK_25_06_00_LPC845BREAKOUT/devices/LPC845/periph2/PERI_CRC.h \
+ /home/hernan/SDK_25_06_00_LPC845BREAKOUT/devices/LPC845/periph2/PERI_CTIMER.h \
+ /home/hernan/SDK_25_06_00_LPC845BREAKOUT/devices/LPC845/periph2/PERI_DAC.h \
+ /home/hernan/SDK_25_06_00_LPC845BREAKOUT/devices/LPC845/periph2/PERI_DMA.h \
+ /home/hernan/SDK_25_06_00_LPC845BREAKOUT/devices/LPC845/periph2/PERI_FLASH_CTRL.h \
+ /home/hernan/SDK_25_06_00_LPC845BREAKOUT/devices/LPC845/periph2/PERI_GPIO.h \
+ /home/hernan/SDK_25_06_00_LPC845BREAKOUT/devices/LPC845/periph2/PERI_I2C.h \
+ /home/hernan/SDK_25_06_00_LPC845BREAKOUT/devices/LPC845/periph2/PERI_INPUTMUX.h \
+ /home/hernan/SDK_25_06_00_LPC845BREAKOUT/devices/LPC845/periph2/PERI_IOCON.h \
+ /home/hernan/SDK_25_06_00_LPC845BREAKOUT/devices/LPC845/periph2/PERI_MRT.h \
+ /home/hernan/SDK_25_06_00_LPC845BREAKOUT/devices/LPC845/periph2/PERI_MTB.h \
+ /home/hernan/SDK_25_06_00_LPC845BREAKOUT/devices/LPC845/periph2/PERI_PINT.h \
+ /home/hernan/SDK_25_06_00_LPC845BREAKOUT/devices/LPC845/periph2/PERI_PMU.h \
+ /home/hernan/SDK_25_06_00_LPC845BREAKOUT/devices/LPC845/periph2/PERI_SCT.h \
+ /home/hernan/SDK_25_06_00_LPC845BREAKOUT/devices/LPC845/periph2/PERI_SPI.h \
+ /home/hernan/SDK_25_06_00_LPC845BREAKOUT/devices/LPC845/periph2/PERI_SWM.h \
+ /home/hernan/SDK_25_06_00_LPC845BREAKOUT/devices/LPC845/periph2/PERI_SYSCON.h \
+ /home/hernan/SDK_25_06_00_LPC845BREAKOUT/devices/LPC845/periph2/PERI_USART.h \
+ /home/hernan/SDK_25_06_00_LPC845BREAKOUT/devices/LPC845/periph2/PERI_WKT.h \
+ /home/hernan/SDK_25_06_00_LPC845BREAKOUT/devices/LPC845/periph2/PERI_WWDT.h

@@ -11,9 +11,9 @@ typedef enum {
 #define BUTTON_PORT 0U
 #define BUTTON_PIN  5U
 
-void Pint_Config(void);
+void Pint_Initialize(void);
 output_format_t Change_Format(void);
 extern volatile bool buttonReady;
-extern volatile output_format_t currentFormat;
+extern output_format_t currentFormat;
 
 #endif // BUTTON_H

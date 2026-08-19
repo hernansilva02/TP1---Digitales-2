@@ -3,7 +3,7 @@
 
 static volatile uint32_t msTicks = 0;
 
-void Systick_Handler(void) {
+void SysTick_Handler(void) {
     if (msTicks != 0U) {
         msTicks--;
     }

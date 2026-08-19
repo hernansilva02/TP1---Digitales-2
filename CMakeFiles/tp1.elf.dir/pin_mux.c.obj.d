@@ -1,6 +1,6 @@
 CMakeFiles/tp1.elf.dir/pin_mux.c.obj: \
- /home/hernan/Documents/UTN/2026/digitales/real_tp1/pin_mux.c \
- mcux_config.h \
+ /mnt/WDbk/Users/Hernan/Documents/UTN/2026/digitales2/real_tp1/pin_mux.c \
+ /mnt/WDbk/Users/Hernan/Documents/UTN/2026/digitales2/real_tp1/mcux_config.h \
  /home/hernan/SDK_25_06_00_LPC845BREAKOUT/devices/LPC845/drivers/./fsl_common.h \
  /usr/arm-none-eabi/include/assert.h /usr/arm-none-eabi/include/_ansi.h \
  /usr/arm-none-eabi/include/newlib.h \
@@ -70,4 +70,4 @@ CMakeFiles/tp1.elf.dir/pin_mux.c.obj: \
  /home/hernan/SDK_25_06_00_LPC845BREAKOUT/devices/LPC845/drivers/./fsl_iocon.h \
  /home/hernan/SDK_25_06_00_LPC845BREAKOUT/devices/LPC845/drivers/./fsl_swm.h \
  /home/hernan/SDK_25_06_00_LPC845BREAKOUT/devices/LPC845/drivers/./fsl_swm_connections.h \
- /home/hernan/Documents/UTN/2026/digitales/real_tp1/pin_mux.h
+ /mnt/WDbk/Users/Hernan/Documents/UTN/2026/digitales2/real_tp1/pin_mux.h

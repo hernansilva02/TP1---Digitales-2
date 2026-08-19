@@ -1,6 +1,6 @@
-set(CMAKE_HOST_SYSTEM "Linux-6.19.14-200.fc43.x86_64")
+set(CMAKE_HOST_SYSTEM "Linux-7.1.8-100.fc43.x86_64")
 set(CMAKE_HOST_SYSTEM_NAME "Linux")
-set(CMAKE_HOST_SYSTEM_VERSION "6.19.14-200.fc43.x86_64")
+set(CMAKE_HOST_SYSTEM_VERSION "7.1.8-100.fc43.x86_64")
 set(CMAKE_HOST_SYSTEM_PROCESSOR "x86_64")
 
 include("/home/hernan/SDK_25_06_00_LPC845BREAKOUT/tools/cmake_toolchain_files/armgcc.cmake")

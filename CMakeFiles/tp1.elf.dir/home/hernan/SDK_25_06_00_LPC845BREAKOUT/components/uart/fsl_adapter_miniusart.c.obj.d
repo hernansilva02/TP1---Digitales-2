@@ -1,6 +1,6 @@
 CMakeFiles/tp1.elf.dir/home/hernan/SDK_25_06_00_LPC845BREAKOUT/components/uart/fsl_adapter_miniusart.c.obj: \
  /home/hernan/SDK_25_06_00_LPC845BREAKOUT/components/uart/fsl_adapter_miniusart.c \
- mcux_config.h \
+ /mnt/WDbk/Users/Hernan/Documents/UTN/2026/digitales2/real_tp1/mcux_config.h \
  /home/hernan/SDK_25_06_00_LPC845BREAKOUT/devices/LPC845/drivers/./fsl_common.h \
  /usr/arm-none-eabi/include/assert.h /usr/arm-none-eabi/include/_ansi.h \
  /usr/arm-none-eabi/include/newlib.h \

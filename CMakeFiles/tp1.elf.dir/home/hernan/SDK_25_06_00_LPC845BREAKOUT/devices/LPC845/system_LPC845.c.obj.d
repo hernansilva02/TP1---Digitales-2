@@ -1,6 +1,7 @@
 CMakeFiles/tp1.elf.dir/home/hernan/SDK_25_06_00_LPC845BREAKOUT/devices/LPC845/system_LPC845.c.obj: \
  /home/hernan/SDK_25_06_00_LPC845BREAKOUT/devices/LPC845/system_LPC845.c \
- mcux_config.h /usr/lib/gcc/arm-none-eabi/15.2.0/include/stdint.h \
+ /mnt/WDbk/Users/Hernan/Documents/UTN/2026/digitales2/real_tp1/mcux_config.h \
+ /usr/lib/gcc/arm-none-eabi/15.2.0/include/stdint.h \
  /usr/arm-none-eabi/include/stdint.h \
  /usr/arm-none-eabi/include/machine/_default_types.h \
  /usr/arm-none-eabi/include/sys/features.h \

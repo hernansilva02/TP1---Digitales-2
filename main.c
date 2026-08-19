@@ -31,6 +31,7 @@ int main() {
     uint8_t report_interval_acc = 0;
     BOARD_InitHardware();
     leds_initialize();
+    SysTick_Config(SystemCoreClock / 1000U);
     Pint_Initialize();
     adc_config();
     USART_Inititalization();

@@ -1,7 +1,7 @@
 CMakeFiles/tp1.elf.dir/src/usart.c.obj: \
- /home/hernan/Documents/UTN/2026/digitales/real_tp1/src/usart.c \
- mcux_config.h \
- /home/hernan/Documents/UTN/2026/digitales/real_tp1/src/usart.h \
+ /mnt/WDbk/Users/Hernan/Documents/UTN/2026/digitales2/real_tp1/src/usart.c \
+ /mnt/WDbk/Users/Hernan/Documents/UTN/2026/digitales2/real_tp1/mcux_config.h \
+ /mnt/WDbk/Users/Hernan/Documents/UTN/2026/digitales2/real_tp1/src/usart.h \
  /home/hernan/SDK_25_06_00_LPC845BREAKOUT/devices/LPC845/drivers/./fsl_usart.h \
  /home/hernan/SDK_25_06_00_LPC845BREAKOUT/devices/LPC845/drivers/./fsl_common.h \
  /usr/arm-none-eabi/include/assert.h /usr/arm-none-eabi/include/_ansi.h \
@@ -67,7 +67,7 @@ CMakeFiles/tp1.elf.dir/src/usart.c.obj: \
  /home/hernan/SDK_25_06_00_LPC845BREAKOUT/devices/LPC845/drivers/./fsl_common_arm.h \
  /home/hernan/SDK_25_06_00_LPC845BREAKOUT/devices/LPC845/drivers/./fsl_clock.h \
  /home/hernan/SDK_25_06_00_LPC845BREAKOUT/devices/LPC845/drivers/./fsl_reset.h \
- /home/hernan/Documents/UTN/2026/digitales/real_tp1/src/button.h \
+ /mnt/WDbk/Users/Hernan/Documents/UTN/2026/digitales2/real_tp1/src/button.h \
  /home/hernan/SDK_25_06_00_LPC845BREAKOUT/devices/LPC845/drivers/./fsl_clock.h \
  /usr/arm-none-eabi/include/stdio.h \
  /usr/lib/gcc/arm-none-eabi/15.2.0/include/stdarg.h \

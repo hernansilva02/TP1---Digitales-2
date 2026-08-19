@@ -1,6 +1,6 @@
 CMakeFiles/tp1.elf.dir/home/hernan/SDK_25_06_00_LPC845BREAKOUT/devices/LPC845/drivers/fsl_inputmux.c.obj: \
  /home/hernan/SDK_25_06_00_LPC845BREAKOUT/devices/LPC845/drivers/fsl_inputmux.c \
- mcux_config.h \
+ /mnt/WDbk/Users/Hernan/Documents/UTN/2026/digitales2/real_tp1/mcux_config.h \
  /home/hernan/SDK_25_06_00_LPC845BREAKOUT/devices/LPC845/drivers/fsl_inputmux.h \
  /home/hernan/SDK_25_06_00_LPC845BREAKOUT/devices/LPC845/drivers/fsl_inputmux_connections.h \
  /home/hernan/SDK_25_06_00_LPC845BREAKOUT/devices/LPC845/drivers/fsl_common.h \

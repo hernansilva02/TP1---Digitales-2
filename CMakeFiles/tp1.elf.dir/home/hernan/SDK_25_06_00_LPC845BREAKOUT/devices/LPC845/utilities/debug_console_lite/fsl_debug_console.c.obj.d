@@ -1,6 +1,7 @@
 CMakeFiles/tp1.elf.dir/home/hernan/SDK_25_06_00_LPC845BREAKOUT/devices/LPC845/utilities/debug_console_lite/fsl_debug_console.c.obj: \
  /home/hernan/SDK_25_06_00_LPC845BREAKOUT/devices/LPC845/utilities/debug_console_lite/fsl_debug_console.c \
- mcux_config.h /usr/lib/gcc/arm-none-eabi/15.2.0/include/stdarg.h \
+ /mnt/WDbk/Users/Hernan/Documents/UTN/2026/digitales2/real_tp1/mcux_config.h \
+ /usr/lib/gcc/arm-none-eabi/15.2.0/include/stdarg.h \
  /usr/arm-none-eabi/include/stdlib.h \
  /usr/arm-none-eabi/include/machine/ieeefp.h \
  /usr/arm-none-eabi/include/_ansi.h /usr/arm-none-eabi/include/newlib.h \

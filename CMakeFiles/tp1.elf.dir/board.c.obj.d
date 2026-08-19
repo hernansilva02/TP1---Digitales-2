@@ -1,5 +1,6 @@
 CMakeFiles/tp1.elf.dir/board.c.obj: \
- /home/hernan/Documents/UTN/2026/digitales/real_tp1/board.c mcux_config.h \
+ /mnt/WDbk/Users/Hernan/Documents/UTN/2026/digitales2/real_tp1/board.c \
+ /mnt/WDbk/Users/Hernan/Documents/UTN/2026/digitales2/real_tp1/mcux_config.h \
  /usr/lib/gcc/arm-none-eabi/15.2.0/include/stdint.h \
  /usr/arm-none-eabi/include/stdint.h \
  /usr/arm-none-eabi/include/machine/_default_types.h \
@@ -65,8 +66,8 @@ CMakeFiles/tp1.elf.dir/board.c.obj: \
  /home/hernan/SDK_25_06_00_LPC845BREAKOUT/devices/LPC845/drivers/./fsl_clock.h \
  /home/hernan/SDK_25_06_00_LPC845BREAKOUT/devices/LPC845/drivers/./fsl_common.h \
  /home/hernan/SDK_25_06_00_LPC845BREAKOUT/devices/LPC845/drivers/./fsl_reset.h \
- /home/hernan/Documents/UTN/2026/digitales/real_tp1/clock_config.h \
- /home/hernan/Documents/UTN/2026/digitales/real_tp1/board.h \
+ /mnt/WDbk/Users/Hernan/Documents/UTN/2026/digitales2/real_tp1/clock_config.h \
+ /mnt/WDbk/Users/Hernan/Documents/UTN/2026/digitales2/real_tp1/board.h \
  /home/hernan/SDK_25_06_00_LPC845BREAKOUT/devices/LPC845/drivers/./fsl_gpio.h \
  /home/hernan/SDK_25_06_00_LPC845BREAKOUT/devices/LPC845/utilities/debug_console_lite/./fsl_debug_console.h \
  /usr/lib/gcc/arm-none-eabi/15.2.0/include/stdarg.h

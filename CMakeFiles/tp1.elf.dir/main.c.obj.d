@@ -1,5 +1,6 @@
 CMakeFiles/tp1.elf.dir/main.c.obj: \
- /home/hernan/Documents/UTN/2026/digitales/real_tp1/main.c mcux_config.h \
+ /mnt/WDbk/Users/Hernan/Documents/UTN/2026/digitales2/real_tp1/main.c \
+ /mnt/WDbk/Users/Hernan/Documents/UTN/2026/digitales2/real_tp1/mcux_config.h \
  /usr/lib/gcc/arm-none-eabi/15.2.0/include/stdint.h \
  /usr/arm-none-eabi/include/stdint.h \
  /usr/arm-none-eabi/include/machine/_default_types.h \
@@ -8,8 +9,8 @@ CMakeFiles/tp1.elf.dir/main.c.obj: \
  /usr/arm-none-eabi/include/sys/_intsup.h \
  /usr/arm-none-eabi/include/sys/_stdint.h \
  /usr/lib/gcc/arm-none-eabi/15.2.0/include/stdbool.h \
- /home/hernan/Documents/UTN/2026/digitales/real_tp1/board.h \
- /home/hernan/Documents/UTN/2026/digitales/real_tp1/clock_config.h \
+ /mnt/WDbk/Users/Hernan/Documents/UTN/2026/digitales2/real_tp1/board.h \
+ /mnt/WDbk/Users/Hernan/Documents/UTN/2026/digitales2/real_tp1/clock_config.h \
  /home/hernan/SDK_25_06_00_LPC845BREAKOUT/devices/LPC845/drivers/./fsl_common.h \
  /usr/arm-none-eabi/include/assert.h /usr/arm-none-eabi/include/_ansi.h \
  /usr/arm-none-eabi/include/newlib.h \
@@ -69,13 +70,13 @@ CMakeFiles/tp1.elf.dir/main.c.obj: \
  /home/hernan/SDK_25_06_00_LPC845BREAKOUT/devices/LPC845/drivers/./fsl_reset.h \
  /home/hernan/SDK_25_06_00_LPC845BREAKOUT/devices/LPC845/drivers/./fsl_gpio.h \
  /home/hernan/SDK_25_06_00_LPC845BREAKOUT/devices/LPC845/drivers/./fsl_adc.h \
- /home/hernan/Documents/UTN/2026/digitales/real_tp1/peripherals.h \
- /home/hernan/Documents/UTN/2026/digitales/real_tp1/pin_mux.h \
+ /mnt/WDbk/Users/Hernan/Documents/UTN/2026/digitales2/real_tp1/peripherals.h \
+ /mnt/WDbk/Users/Hernan/Documents/UTN/2026/digitales2/real_tp1/pin_mux.h \
  /home/hernan/SDK_25_06_00_LPC845BREAKOUT/devices/LPC845/drivers/./fsl_power.h \
- /home/hernan/Documents/UTN/2026/digitales/real_tp1/src/adc.h \
- /home/hernan/Documents/UTN/2026/digitales/real_tp1/src/timer.h \
- /home/hernan/Documents/UTN/2026/digitales/real_tp1/src/led.h \
- /home/hernan/Documents/UTN/2026/digitales/real_tp1/src/button.h \
- /home/hernan/Documents/UTN/2026/digitales/real_tp1/src/usart.h \
+ /mnt/WDbk/Users/Hernan/Documents/UTN/2026/digitales2/real_tp1/src/adc.h \
+ /mnt/WDbk/Users/Hernan/Documents/UTN/2026/digitales2/real_tp1/src/timer.h \
+ /mnt/WDbk/Users/Hernan/Documents/UTN/2026/digitales2/real_tp1/src/led.h \
+ /mnt/WDbk/Users/Hernan/Documents/UTN/2026/digitales2/real_tp1/src/button.h \
+ /mnt/WDbk/Users/Hernan/Documents/UTN/2026/digitales2/real_tp1/src/usart.h \
  /home/hernan/SDK_25_06_00_LPC845BREAKOUT/devices/LPC845/drivers/./fsl_usart.h \
- /home/hernan/Documents/UTN/2026/digitales/real_tp1/src/button.h
+ /mnt/WDbk/Users/Hernan/Documents/UTN/2026/digitales2/real_tp1/src/button.h

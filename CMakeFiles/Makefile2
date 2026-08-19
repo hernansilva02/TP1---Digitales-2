@@ -54,10 +54,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/hernan/Documents/UTN/2026/digitales/real_tp1
+CMAKE_SOURCE_DIR = /mnt/WDbk/Users/Hernan/Documents/UTN/2026/digitales2/real_tp1
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/hernan/Documents/UTN/2026/digitales/real_tp1
+CMAKE_BINARY_DIR = /mnt/WDbk/Users/Hernan/Documents/UTN/2026/digitales2/real_tp1
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -85,14 +85,14 @@ clean: CMakeFiles/tp1.elf.dir/clean
 CMakeFiles/tp1.elf.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/tp1.elf.dir/build.make CMakeFiles/tp1.elf.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/tp1.elf.dir/build.make CMakeFiles/tp1.elf.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/hernan/Documents/UTN/2026/digitales/real_tp1/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31 "Built target tp1.elf"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/mnt/WDbk/Users/Hernan/Documents/UTN/2026/digitales2/real_tp1/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31 "Built target tp1.elf"
 .PHONY : CMakeFiles/tp1.elf.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/tp1.elf.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/hernan/Documents/UTN/2026/digitales/real_tp1/CMakeFiles 31
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/WDbk/Users/Hernan/Documents/UTN/2026/digitales2/real_tp1/CMakeFiles 31
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/tp1.elf.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/hernan/Documents/UTN/2026/digitales/real_tp1/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/WDbk/Users/Hernan/Documents/UTN/2026/digitales2/real_tp1/CMakeFiles 0
 .PHONY : CMakeFiles/tp1.elf.dir/rule
 
 # Convenience name for target.
@@ -102,7 +102,7 @@ tp1.elf: CMakeFiles/tp1.elf.dir/rule
 # codegen rule for target.
 CMakeFiles/tp1.elf.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/tp1.elf.dir/build.make CMakeFiles/tp1.elf.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/hernan/Documents/UTN/2026/digitales/real_tp1/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31 "Finished codegen for target tp1.elf"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/mnt/WDbk/Users/Hernan/Documents/UTN/2026/digitales2/real_tp1/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31 "Finished codegen for target tp1.elf"
 .PHONY : CMakeFiles/tp1.elf.dir/codegen
 
 # clean rule for target.

@@ -1,6 +1,7 @@
 CMakeFiles/tp1.elf.dir/home/hernan/SDK_25_06_00_LPC845BREAKOUT/devices/LPC845/utilities/fsl_sbrk.c.obj: \
  /home/hernan/SDK_25_06_00_LPC845BREAKOUT/devices/LPC845/utilities/fsl_sbrk.c \
- mcux_config.h /usr/arm-none-eabi/include/errno.h \
+ /mnt/WDbk/Users/Hernan/Documents/UTN/2026/digitales2/real_tp1/mcux_config.h \
+ /usr/arm-none-eabi/include/errno.h \
  /usr/arm-none-eabi/include/sys/errno.h \
  /usr/arm-none-eabi/include/sys/reent.h \
  /usr/arm-none-eabi/include/_ansi.h /usr/arm-none-eabi/include/newlib.h \

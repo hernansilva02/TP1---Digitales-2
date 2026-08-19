@@ -1,7 +1,7 @@
 CMakeFiles/tp1.elf.dir/home/hernan/SDK_25_06_00_LPC845BREAKOUT/devices/LPC845/utilities/str/fsl_str.c.obj: \
  /home/hernan/SDK_25_06_00_LPC845BREAKOUT/devices/LPC845/utilities/str/fsl_str.c \
- mcux_config.h /usr/arm-none-eabi/include/math.h \
- /usr/arm-none-eabi/include/sys/reent.h \
+ /mnt/WDbk/Users/Hernan/Documents/UTN/2026/digitales2/real_tp1/mcux_config.h \
+ /usr/arm-none-eabi/include/math.h /usr/arm-none-eabi/include/sys/reent.h \
  /usr/arm-none-eabi/include/_ansi.h /usr/arm-none-eabi/include/newlib.h \
  /usr/arm-none-eabi/include/_newlib_version.h \
  /usr/arm-none-eabi/include/sys/config.h \

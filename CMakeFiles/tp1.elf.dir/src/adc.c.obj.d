@@ -1,7 +1,8 @@
 CMakeFiles/tp1.elf.dir/src/adc.c.obj: \
- /home/hernan/Documents/UTN/2026/digitales/real_tp1/src/adc.c \
- mcux_config.h /usr/lib/gcc/arm-none-eabi/15.2.0/include/stdbool.h \
- /home/hernan/Documents/UTN/2026/digitales/real_tp1/src/adc.h \
+ /mnt/WDbk/Users/Hernan/Documents/UTN/2026/digitales2/real_tp1/src/adc.c \
+ /mnt/WDbk/Users/Hernan/Documents/UTN/2026/digitales2/real_tp1/mcux_config.h \
+ /usr/lib/gcc/arm-none-eabi/15.2.0/include/stdbool.h \
+ /mnt/WDbk/Users/Hernan/Documents/UTN/2026/digitales2/real_tp1/src/adc.h \
  /usr/lib/gcc/arm-none-eabi/15.2.0/include/stdint.h \
  /usr/arm-none-eabi/include/stdint.h \
  /usr/arm-none-eabi/include/machine/_default_types.h \

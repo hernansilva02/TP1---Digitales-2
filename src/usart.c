@@ -10,9 +10,9 @@ usart_handle_t usart_handle;
 usart_transfer_t rcv;
 volatile bool RxOngoing = false;
 volatile bool RxBufferEmpty = true;
-uint8_t report_interval = 5;
+uint32_t report_interval = 5;
 uint8_t RxData;
-char CommandBuffer[16] = {0};
+uint8_t CommandBuffer[16] = {0};
 
 static void usart_callback_func(USART_Type *base, usart_handle_t *handle, status_t status, void *userData) {
     (void)userData;
@@ -74,6 +74,12 @@ void Rcv_Command() {
 }
 
 void Send_Output(float amps, uint16_t report_interval_acc) {
+    /*
+    uint8_t txbuff[] =
+    "Usart polling example.\r\nBoard will send back received characters.\r\nNow, please input any character:\r\n";
+
+    USART_WriteBlocking(USART0, txbuff, sizeof(txbuff) - 1);
+    */
     uint8_t len;
     uint8_t buffer[40];
     switch (currentFormat) {

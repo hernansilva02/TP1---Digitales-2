@@ -4,8 +4,8 @@
 #include "button.h"
 #include <stdint.h>
 
-extern char CommandBuffer[16];
-extern uint8_t report_interval;
+extern uint8_t CommandBuffer[16];
+extern uint32_t report_interval;
 
 void USART_Inititalization(void);
 void Send_Output(float amps, uint16_t time);

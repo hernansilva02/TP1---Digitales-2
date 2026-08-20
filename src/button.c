@@ -17,6 +17,7 @@ void Pint_Initialize(void) {
     SYSCON_AttachSignal(SYSCON, kPINT_PinInt0, kSYSCON_GpioPort0Pin4ToPintsel); // Attaches PIO4 to PINT0
     PINT_Init(PINT);
     PINT_PinInterruptConfig(PINT, kPINT_PinInt0, kPINT_PinIntEnableFallEdge);
+    PINT_SetCallback(PINT, button_callback);
     PINT_EnableCallbackByIndex(PINT, kPINT_PinInt0);
 }
 

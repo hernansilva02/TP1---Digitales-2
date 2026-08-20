@@ -27,7 +27,7 @@ void BOARD_InitHardware(void) {
 }
 
 int main() {
-    float amps;
+    float amps = 0.0f;
     uint8_t report_interval_acc = 0;
     BOARD_InitHardware();
     leds_initialize();
@@ -35,7 +35,7 @@ int main() {
     Pint_Initialize();
     adc_config();
     USART_Inititalization();
-    NVIC_EnableIRQ(ADC0_SEQA_IRQn);
+//    NVIC_EnableIRQ(ADC0_SEQA_IRQn);
     while (1) {
         ADC_DoSoftwareTriggerConvSeqA(ADC0);
         if (conversionReady) {

@@ -84,20 +84,24 @@ void Send_Output(float amps, uint16_t report_interval_acc) {
     uint8_t buffer[40];
     switch (currentFormat) {
         case FORMAT_AMPS:
-            len = snprintf(buffer, sizeof(buffer), "%.2f A %u seg\r\n", amps, report_interval_acc);
-            USART_WriteBlocking(USART0, buffer, len);
-            break;
+            {
+                uint32_t int_amps = (uint32_t)amps / 100;
+                uint32_t dec_amps = (uint32_t)amps % 100;
+                len = snprintf(buffer, sizeof(buffer), "%lu.%02lu A %u seg\r\n", int_amps, dec_amps, report_interval_acc);
+                USART_WriteBlocking(USART0, buffer, len);
+                break;
+            }
         case FORMAT_WATTS: 
         {
-            float watts = 220 * amps;
-            len = snprintf(buffer, sizeof(buffer), "%.2f A %u seg\r\n", watts, report_interval_acc);
+            float watts = 220.0f * amps;
+            len = snprintf(buffer, sizeof(buffer), "%f W %u seg\r\n", watts, report_interval_acc);
             USART_WriteBlocking(USART0, buffer, len);
             break;
         }
         case FORMAT_COST:
         {
             float cost = (220.0f * amps) * report_interval/3600.0f * WH_PRICE;
-            len = snprintf(buffer, sizeof(buffer), "$%.2f A %u seg\r\n", cost, report_interval_acc);
+            len = snprintf(buffer, sizeof(buffer), "$f %u seg\r\n", cost, report_interval_acc);
             USART_WriteBlocking(USART0, buffer, len);
             break;
         }

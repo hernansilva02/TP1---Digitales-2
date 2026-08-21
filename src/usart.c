@@ -1,10 +1,10 @@
 #include "usart.h"
 #include "fsl_clock.h"
 #include "fsl_usart.h"
+#include <stdint.h>
 #include <stdio.h>
 #include <string.h>
 
-#define WH_PRICE 3600.0f
 
 usart_handle_t usart_handle;
 usart_transfer_t rcv;
@@ -73,7 +73,7 @@ void Rcv_Command() {
     }
 }
 
-void Send_Output(float amps, uint16_t report_interval_acc) {
+void Send_Output(uint32_t* amps, uint32_t report_interval_acc) {
     /*
     uint8_t txbuff[] =
     "Usart polling example.\r\nBoard will send back received characters.\r\nNow, please input any character:\r\n";
@@ -85,23 +85,21 @@ void Send_Output(float amps, uint16_t report_interval_acc) {
     switch (currentFormat) {
         case FORMAT_AMPS:
             {
-                uint32_t int_amps = (uint32_t)amps / 100;
-                uint32_t dec_amps = (uint32_t)amps % 100;
-                len = snprintf(buffer, sizeof(buffer), "%lu.%02lu A %u seg\r\n", int_amps, dec_amps, report_interval_acc);
+                len = snprintf(buffer, sizeof(buffer), "%lu.%03lu A %lu seg\r\n", amps[0], amps[1], report_interval_acc);
                 USART_WriteBlocking(USART0, buffer, len);
                 break;
             }
         case FORMAT_WATTS: 
         {
-            float watts = 220.0f * amps;
-            len = snprintf(buffer, sizeof(buffer), "%f W %u seg\r\n", watts, report_interval_acc);
+            uint32_t full_watts = (amps[0] * 1000 + amps[1]) * 220;
+            len = snprintf(buffer, sizeof(buffer), "%lu.%03lu W %lu seg\r\n", full_watts / 1000, full_watts % 1000, report_interval_acc);
             USART_WriteBlocking(USART0, buffer, len);
             break;
         }
         case FORMAT_COST:
         {
-            float cost = (220.0f * amps) * report_interval/3600.0f * WH_PRICE;
-            len = snprintf(buffer, sizeof(buffer), "$f %u seg\r\n", cost, report_interval_acc);
+            uint32_t full_cost = (amps[0]*1000U + amps[1]) * 220 * WH_PRICE * report_interval_acc / 3600;
+            len = snprintf(buffer, sizeof(buffer), "$%lu.%03lu %lu seg\r\n", full_cost / 1000U, full_cost % 1000U, report_interval_acc);
             USART_WriteBlocking(USART0, buffer, len);
             break;
         }

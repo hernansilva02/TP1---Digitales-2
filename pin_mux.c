@@ -51,7 +51,9 @@ void BOARD_InitBootPins(void)
  * TEXT BELOW IS USED AS SETTING FOR TOOLS *************************************
 BOARD_InitPins:
 - options: {callFromInitBoot: 'true', coreID: core0, enableClock: 'true'}
-- pin_list: []
+- pin_list:
+  - {pin_num: '34', peripheral: ADC0, signal: 'CH, 1', pin_signal: PIO0_6/ADC_1/ACMPVREF, mode: inactive, invert: disabled, hysteresis: enabled, opendrain: disabled,
+    smode: bypass, clkdiv: div0}
  * BE CAREFUL MODIFYING THIS COMMENT - IT IS YAML SETTINGS FOR TOOLS ***********
  */
 /* clang-format on */
@@ -65,6 +67,31 @@ BOARD_InitPins:
 /* Function assigned for the Cortex-M0P */
 void BOARD_InitPins(void)
 {
+    /* Enables clock for IOCON.: enable */
+    CLOCK_EnableClock(kCLOCK_Iocon);
+    /* Enables clock for switch matrix.: enable */
+    CLOCK_EnableClock(kCLOCK_Swm);
+
+    const uint32_t ADC_CHANNEL_1 = (/* No addition pin function */
+                                    IOCON_PIO_MODE_INACT |
+                                    /* Enable hysteresis */
+                                    IOCON_PIO_HYS_EN |
+                                    /* Input not invert */
+                                    IOCON_PIO_INV_DI |
+                                    /* Disables Open-drain function */
+                                    IOCON_PIO_OD_DI |
+                                    /* Bypass input filter */
+                                    IOCON_PIO_SMODE_BYPASS |
+                                    /* IOCONCLKDIV0 */
+                                    IOCON_PIO_CLKDIV0);
+    /* PIO0 PIN6 (coords: 34) is configured as ADC0, CH, 1. */
+    IOCON_PinMuxSet(IOCON, IOCON_INDEX_PIO0_6, ADC_CHANNEL_1);
+
+    /* ADC_CHN1 connect to P0_6 */
+    SWM_SetFixedPinSelect(SWM0, kSWM_ADC_CHN1, true);
+
+    /* Disable clock for switch matrix. */
+    CLOCK_DisableClock(kCLOCK_Swm);
 }
 
 /* clang-format off */

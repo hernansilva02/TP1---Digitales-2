@@ -1,14 +1,15 @@
 #ifndef MY_USART_H
 #define MY_USART_H
-#include "fsl_usart.h"
 #include "button.h"
 #include <stdint.h>
+
+#define WH_PRICE 3600U
 
 extern uint8_t CommandBuffer[16];
 extern uint32_t report_interval;
 
 void USART_Inititalization(void);
-void Send_Output(float amps, uint16_t time);
+void Send_Output(uint32_t* amps, uint32_t time);
 void Rcv_Command();
 
 #endif // MY_USRT_H

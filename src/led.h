@@ -10,5 +10,5 @@
 
 
 void leds_initialize();
-void select_led_on(float amps);
+void select_led_on(uint32_t* amps);
 #endif // MY_LEDS_H

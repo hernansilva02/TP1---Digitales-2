@@ -38,12 +38,12 @@ static void leds_on_off(uint8_t pin) {
     }
 }
 
-void select_led_on(float amps) {
-    if (amps >= 1.5f && amps <= 4.5f) {
+void select_led_on(uint32_t* amps) {
+    if ((amps[0]*1000 + amps[1] >= 1500)  && (amps[0]*1000 + amps[1] <= 4500)) {
         leds_on_off(BLUE_LED_PIN);
-    } else if (amps > 4.5f && amps <= 9.75f) {
+    } else if ((amps[0]*1000 + amps[1] >= 4500)  && (amps[0]*1000 + amps[1] <= 9750 )) {
         leds_on_off(GREEN_LED_PIN);
-    } else if(amps > 9.75f) {
+    } else if(amps[0]*1000 + amps[1] > 10500) {
         leds_on_off(RED_LED_PIN);
     } else {
         leds_on_off(SMALL_CURRENT);

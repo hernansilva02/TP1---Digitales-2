@@ -27,8 +27,8 @@ void BOARD_InitHardware(void) {
 }
 
 int main() {
-    float amps = 0.0f;
-    uint8_t report_interval_acc = 0;
+    uint32_t amps[2] = {0};
+    uint32_t report_interval_acc = 0;
     BOARD_InitHardware();
     leds_initialize();
     SysTick_Config(SystemCoreClock / 1000U);
@@ -39,8 +39,8 @@ int main() {
     while (1) {
         ADC_DoSoftwareTriggerConvSeqA(ADC0);
         if (conversionReady) {
-            amps = adc_volts_to_amps();
             conversionReady = false;
+            adc_volts_to_amps(amps);
         }
         select_led_on(amps);
         if (buttonReady) {

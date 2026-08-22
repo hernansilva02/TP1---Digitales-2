@@ -3,7 +3,7 @@
 #include "button.h"
 #include <stdint.h>
 
-#define WH_PRICE 3600U
+#define WH_PRICE 36
 
 extern uint8_t CommandBuffer[16];
 extern uint32_t report_interval;

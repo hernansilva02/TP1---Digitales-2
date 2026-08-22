@@ -46,6 +46,6 @@ void ADC0_SEQA_IRQHandler(void) {
 
 void adc_volts_to_amps(uint32_t* amps) {
     uint32_t int_volts_to_amps = (conversionResults.result * ADC_VOLTS_PER_CONV * VOLTS_TO_AMPS_FACTOR_INT) / 100000;
-    amps[0] = int_volts_to_amps / 1000;
-    amps[1] = int_volts_to_amps % 1000;
+    amps[0] = int_volts_to_amps / 1000UL;
+    amps[1] = int_volts_to_amps % 1000UL;
 }

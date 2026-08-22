@@ -85,21 +85,21 @@ void Send_Output(uint32_t* amps, uint32_t report_interval_acc) {
     switch (currentFormat) {
         case FORMAT_AMPS:
             {
-                len = snprintf(buffer, sizeof(buffer), "%lu.%03lu A %lu seg\r\n", amps[0], amps[1], report_interval_acc);
+                len = snprintf(buffer, sizeof(buffer), "%lu.%03lu A %lu seg\r\n\n", amps[0], amps[1], report_interval_acc);
                 USART_WriteBlocking(USART0, buffer, len);
                 break;
             }
         case FORMAT_WATTS: 
         {
             uint32_t full_watts = (amps[0] * 1000 + amps[1]) * 220;
-            len = snprintf(buffer, sizeof(buffer), "%lu.%03lu W %lu seg\r\n", full_watts / 1000, full_watts % 1000, report_interval_acc);
+            len = snprintf(buffer, sizeof(buffer), "%lu.%03lu W %lu seg\r\n\n", full_watts / 1000, full_watts % 1000, report_interval_acc);
             USART_WriteBlocking(USART0, buffer, len);
             break;
         }
         case FORMAT_COST:
         {
             uint32_t full_cost = (amps[0]*1000UL + amps[1]) * 220UL * report_interval_acc;
-            len = snprintf(buffer, sizeof(buffer), "$%lu.%03lu %lu seg\r\n", full_cost / 1000UL, full_cost % 1000U, report_interval_acc);
+            len = snprintf(buffer, sizeof(buffer), "$%lu.%03lu %lu seg\r\n\n", full_cost / 1000UL, full_cost % 1000U, report_interval_acc);
             USART_WriteBlocking(USART0, buffer, len);
             break;
         }

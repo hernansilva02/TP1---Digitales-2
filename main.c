@@ -47,9 +47,13 @@ int main() {
             buttonReady = false;
             currentFormat = Change_Format();
         }
+        if (TimerReady) {
+            TimerReady = false;
+            Report_Interval_Act(report_interval * 1000U);
+            Send_Output(amps, report_interval_acc);
+            report_interval_acc += report_interval;
+        }
         Rcv_Command();
-        Send_Output(amps, report_interval_acc);
-        report_interval_acc += report_interval;
-        SysDelay(report_interval * 1000U); // report_interval is in seconds
+        // SysDelay(report_interval * 1000U); // report_interval is in seconds
     }
 }

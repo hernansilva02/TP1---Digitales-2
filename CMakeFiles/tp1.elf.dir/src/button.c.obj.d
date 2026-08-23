@@ -1,7 +1,7 @@
 CMakeFiles/tp1.elf.dir/src/button.c.obj: \
- /mnt/WDbk/Users/Hernan/Documents/UTN/2026/digitales2/real_tp1/src/button.c \
- /mnt/WDbk/Users/Hernan/Documents/UTN/2026/digitales2/real_tp1/mcux_config.h \
- /mnt/WDbk/Users/Hernan/Documents/UTN/2026/digitales2/real_tp1/src/button.h \
+ /home/hernan/Documents/UTN/2026/digitales/real_tp1/src/button.c \
+ mcux_config.h \
+ /home/hernan/Documents/UTN/2026/digitales/real_tp1/src/button.h \
  /usr/lib/gcc/arm-none-eabi/15.2.0/include/stdbool.h \
  /home/hernan/SDK_25_06_00_LPC845BREAKOUT/devices/LPC845/drivers/./fsl_pint.h \
  /home/hernan/SDK_25_06_00_LPC845BREAKOUT/devices/LPC845/drivers/./fsl_common.h \

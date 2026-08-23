@@ -1,6 +1,6 @@
 CMakeFiles/tp1.elf.dir/clock_config.c.obj: \
- /mnt/WDbk/Users/Hernan/Documents/UTN/2026/digitales2/real_tp1/clock_config.c \
- /mnt/WDbk/Users/Hernan/Documents/UTN/2026/digitales2/real_tp1/mcux_config.h \
+ /home/hernan/Documents/UTN/2026/digitales/real_tp1/clock_config.c \
+ mcux_config.h \
  /home/hernan/SDK_25_06_00_LPC845BREAKOUT/devices/LPC845/drivers/./fsl_power.h \
  /home/hernan/SDK_25_06_00_LPC845BREAKOUT/devices/LPC845/drivers/./fsl_common.h \
  /usr/arm-none-eabi/include/assert.h /usr/arm-none-eabi/include/_ansi.h \
@@ -67,5 +67,5 @@ CMakeFiles/tp1.elf.dir/clock_config.c.obj: \
  /home/hernan/SDK_25_06_00_LPC845BREAKOUT/devices/LPC845/drivers/./fsl_clock.h \
  /home/hernan/SDK_25_06_00_LPC845BREAKOUT/devices/LPC845/drivers/./fsl_reset.h \
  /home/hernan/SDK_25_06_00_LPC845BREAKOUT/devices/LPC845/drivers/./fsl_clock.h \
- /mnt/WDbk/Users/Hernan/Documents/UTN/2026/digitales2/real_tp1/clock_config.h \
+ /home/hernan/Documents/UTN/2026/digitales/real_tp1/clock_config.h \
  /home/hernan/SDK_25_06_00_LPC845BREAKOUT/devices/LPC845/drivers/./fsl_common.h

@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /mnt/WDbk/Users/Hernan/Documents/UTN/2026/digitales2/real_tp1
+CMAKE_SOURCE_DIR = /home/hernan/Documents/UTN/2026/digitales/real_tp1
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /mnt/WDbk/Users/Hernan/Documents/UTN/2026/digitales2/real_tp1
+CMAKE_BINARY_DIR = /home/hernan/Documents/UTN/2026/digitales/real_tp1
 
 # Include any dependencies generated for this target.
 include CMakeFiles/tp1.elf.dir/depend.make
@@ -75,147 +75,147 @@ CMakeFiles/tp1.elf.dir/codegen:
 CMakeFiles/tp1.elf.dir/board.c.obj: CMakeFiles/tp1.elf.dir/flags.make
 CMakeFiles/tp1.elf.dir/board.c.obj: board.c
 CMakeFiles/tp1.elf.dir/board.c.obj: CMakeFiles/tp1.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/WDbk/Users/Hernan/Documents/UTN/2026/digitales2/real_tp1/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/tp1.elf.dir/board.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/tp1.elf.dir/board.c.obj -MF CMakeFiles/tp1.elf.dir/board.c.obj.d -o CMakeFiles/tp1.elf.dir/board.c.obj -c /mnt/WDbk/Users/Hernan/Documents/UTN/2026/digitales2/real_tp1/board.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/hernan/Documents/UTN/2026/digitales/real_tp1/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/tp1.elf.dir/board.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/tp1.elf.dir/board.c.obj -MF CMakeFiles/tp1.elf.dir/board.c.obj.d -o CMakeFiles/tp1.elf.dir/board.c.obj -c /home/hernan/Documents/UTN/2026/digitales/real_tp1/board.c
 
 CMakeFiles/tp1.elf.dir/board.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/tp1.elf.dir/board.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/WDbk/Users/Hernan/Documents/UTN/2026/digitales2/real_tp1/board.c > CMakeFiles/tp1.elf.dir/board.c.i
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/hernan/Documents/UTN/2026/digitales/real_tp1/board.c > CMakeFiles/tp1.elf.dir/board.c.i
 
 CMakeFiles/tp1.elf.dir/board.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/tp1.elf.dir/board.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/WDbk/Users/Hernan/Documents/UTN/2026/digitales2/real_tp1/board.c -o CMakeFiles/tp1.elf.dir/board.c.s
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/hernan/Documents/UTN/2026/digitales/real_tp1/board.c -o CMakeFiles/tp1.elf.dir/board.c.s
 
 CMakeFiles/tp1.elf.dir/clock_config.c.obj: CMakeFiles/tp1.elf.dir/flags.make
 CMakeFiles/tp1.elf.dir/clock_config.c.obj: clock_config.c
 CMakeFiles/tp1.elf.dir/clock_config.c.obj: CMakeFiles/tp1.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/WDbk/Users/Hernan/Documents/UTN/2026/digitales2/real_tp1/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/tp1.elf.dir/clock_config.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/tp1.elf.dir/clock_config.c.obj -MF CMakeFiles/tp1.elf.dir/clock_config.c.obj.d -o CMakeFiles/tp1.elf.dir/clock_config.c.obj -c /mnt/WDbk/Users/Hernan/Documents/UTN/2026/digitales2/real_tp1/clock_config.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/hernan/Documents/UTN/2026/digitales/real_tp1/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/tp1.elf.dir/clock_config.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/tp1.elf.dir/clock_config.c.obj -MF CMakeFiles/tp1.elf.dir/clock_config.c.obj.d -o CMakeFiles/tp1.elf.dir/clock_config.c.obj -c /home/hernan/Documents/UTN/2026/digitales/real_tp1/clock_config.c
 
 CMakeFiles/tp1.elf.dir/clock_config.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/tp1.elf.dir/clock_config.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/WDbk/Users/Hernan/Documents/UTN/2026/digitales2/real_tp1/clock_config.c > CMakeFiles/tp1.elf.dir/clock_config.c.i
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/hernan/Documents/UTN/2026/digitales/real_tp1/clock_config.c > CMakeFiles/tp1.elf.dir/clock_config.c.i
 
 CMakeFiles/tp1.elf.dir/clock_config.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/tp1.elf.dir/clock_config.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/WDbk/Users/Hernan/Documents/UTN/2026/digitales2/real_tp1/clock_config.c -o CMakeFiles/tp1.elf.dir/clock_config.c.s
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/hernan/Documents/UTN/2026/digitales/real_tp1/clock_config.c -o CMakeFiles/tp1.elf.dir/clock_config.c.s
 
 CMakeFiles/tp1.elf.dir/peripherals.c.obj: CMakeFiles/tp1.elf.dir/flags.make
 CMakeFiles/tp1.elf.dir/peripherals.c.obj: peripherals.c
 CMakeFiles/tp1.elf.dir/peripherals.c.obj: CMakeFiles/tp1.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/WDbk/Users/Hernan/Documents/UTN/2026/digitales2/real_tp1/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/tp1.elf.dir/peripherals.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/tp1.elf.dir/peripherals.c.obj -MF CMakeFiles/tp1.elf.dir/peripherals.c.obj.d -o CMakeFiles/tp1.elf.dir/peripherals.c.obj -c /mnt/WDbk/Users/Hernan/Documents/UTN/2026/digitales2/real_tp1/peripherals.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/hernan/Documents/UTN/2026/digitales/real_tp1/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/tp1.elf.dir/peripherals.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/tp1.elf.dir/peripherals.c.obj -MF CMakeFiles/tp1.elf.dir/peripherals.c.obj.d -o CMakeFiles/tp1.elf.dir/peripherals.c.obj -c /home/hernan/Documents/UTN/2026/digitales/real_tp1/peripherals.c
 
 CMakeFiles/tp1.elf.dir/peripherals.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/tp1.elf.dir/peripherals.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/WDbk/Users/Hernan/Documents/UTN/2026/digitales2/real_tp1/peripherals.c > CMakeFiles/tp1.elf.dir/peripherals.c.i
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/hernan/Documents/UTN/2026/digitales/real_tp1/peripherals.c > CMakeFiles/tp1.elf.dir/peripherals.c.i
 
 CMakeFiles/tp1.elf.dir/peripherals.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/tp1.elf.dir/peripherals.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/WDbk/Users/Hernan/Documents/UTN/2026/digitales2/real_tp1/peripherals.c -o CMakeFiles/tp1.elf.dir/peripherals.c.s
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/hernan/Documents/UTN/2026/digitales/real_tp1/peripherals.c -o CMakeFiles/tp1.elf.dir/peripherals.c.s
 
 CMakeFiles/tp1.elf.dir/pin_mux.c.obj: CMakeFiles/tp1.elf.dir/flags.make
 CMakeFiles/tp1.elf.dir/pin_mux.c.obj: pin_mux.c
 CMakeFiles/tp1.elf.dir/pin_mux.c.obj: CMakeFiles/tp1.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/WDbk/Users/Hernan/Documents/UTN/2026/digitales2/real_tp1/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/tp1.elf.dir/pin_mux.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/tp1.elf.dir/pin_mux.c.obj -MF CMakeFiles/tp1.elf.dir/pin_mux.c.obj.d -o CMakeFiles/tp1.elf.dir/pin_mux.c.obj -c /mnt/WDbk/Users/Hernan/Documents/UTN/2026/digitales2/real_tp1/pin_mux.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/hernan/Documents/UTN/2026/digitales/real_tp1/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/tp1.elf.dir/pin_mux.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/tp1.elf.dir/pin_mux.c.obj -MF CMakeFiles/tp1.elf.dir/pin_mux.c.obj.d -o CMakeFiles/tp1.elf.dir/pin_mux.c.obj -c /home/hernan/Documents/UTN/2026/digitales/real_tp1/pin_mux.c
 
 CMakeFiles/tp1.elf.dir/pin_mux.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/tp1.elf.dir/pin_mux.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/WDbk/Users/Hernan/Documents/UTN/2026/digitales2/real_tp1/pin_mux.c > CMakeFiles/tp1.elf.dir/pin_mux.c.i
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/hernan/Documents/UTN/2026/digitales/real_tp1/pin_mux.c > CMakeFiles/tp1.elf.dir/pin_mux.c.i
 
 CMakeFiles/tp1.elf.dir/pin_mux.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/tp1.elf.dir/pin_mux.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/WDbk/Users/Hernan/Documents/UTN/2026/digitales2/real_tp1/pin_mux.c -o CMakeFiles/tp1.elf.dir/pin_mux.c.s
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/hernan/Documents/UTN/2026/digitales/real_tp1/pin_mux.c -o CMakeFiles/tp1.elf.dir/pin_mux.c.s
 
 CMakeFiles/tp1.elf.dir/src/adc.c.obj: CMakeFiles/tp1.elf.dir/flags.make
 CMakeFiles/tp1.elf.dir/src/adc.c.obj: src/adc.c
 CMakeFiles/tp1.elf.dir/src/adc.c.obj: CMakeFiles/tp1.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/WDbk/Users/Hernan/Documents/UTN/2026/digitales2/real_tp1/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/tp1.elf.dir/src/adc.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/tp1.elf.dir/src/adc.c.obj -MF CMakeFiles/tp1.elf.dir/src/adc.c.obj.d -o CMakeFiles/tp1.elf.dir/src/adc.c.obj -c /mnt/WDbk/Users/Hernan/Documents/UTN/2026/digitales2/real_tp1/src/adc.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/hernan/Documents/UTN/2026/digitales/real_tp1/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/tp1.elf.dir/src/adc.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/tp1.elf.dir/src/adc.c.obj -MF CMakeFiles/tp1.elf.dir/src/adc.c.obj.d -o CMakeFiles/tp1.elf.dir/src/adc.c.obj -c /home/hernan/Documents/UTN/2026/digitales/real_tp1/src/adc.c
 
 CMakeFiles/tp1.elf.dir/src/adc.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/tp1.elf.dir/src/adc.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/WDbk/Users/Hernan/Documents/UTN/2026/digitales2/real_tp1/src/adc.c > CMakeFiles/tp1.elf.dir/src/adc.c.i
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/hernan/Documents/UTN/2026/digitales/real_tp1/src/adc.c > CMakeFiles/tp1.elf.dir/src/adc.c.i
 
 CMakeFiles/tp1.elf.dir/src/adc.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/tp1.elf.dir/src/adc.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/WDbk/Users/Hernan/Documents/UTN/2026/digitales2/real_tp1/src/adc.c -o CMakeFiles/tp1.elf.dir/src/adc.c.s
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/hernan/Documents/UTN/2026/digitales/real_tp1/src/adc.c -o CMakeFiles/tp1.elf.dir/src/adc.c.s
 
 CMakeFiles/tp1.elf.dir/src/button.c.obj: CMakeFiles/tp1.elf.dir/flags.make
 CMakeFiles/tp1.elf.dir/src/button.c.obj: src/button.c
 CMakeFiles/tp1.elf.dir/src/button.c.obj: CMakeFiles/tp1.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/WDbk/Users/Hernan/Documents/UTN/2026/digitales2/real_tp1/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/tp1.elf.dir/src/button.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/tp1.elf.dir/src/button.c.obj -MF CMakeFiles/tp1.elf.dir/src/button.c.obj.d -o CMakeFiles/tp1.elf.dir/src/button.c.obj -c /mnt/WDbk/Users/Hernan/Documents/UTN/2026/digitales2/real_tp1/src/button.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/hernan/Documents/UTN/2026/digitales/real_tp1/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/tp1.elf.dir/src/button.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/tp1.elf.dir/src/button.c.obj -MF CMakeFiles/tp1.elf.dir/src/button.c.obj.d -o CMakeFiles/tp1.elf.dir/src/button.c.obj -c /home/hernan/Documents/UTN/2026/digitales/real_tp1/src/button.c
 
 CMakeFiles/tp1.elf.dir/src/button.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/tp1.elf.dir/src/button.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/WDbk/Users/Hernan/Documents/UTN/2026/digitales2/real_tp1/src/button.c > CMakeFiles/tp1.elf.dir/src/button.c.i
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/hernan/Documents/UTN/2026/digitales/real_tp1/src/button.c > CMakeFiles/tp1.elf.dir/src/button.c.i
 
 CMakeFiles/tp1.elf.dir/src/button.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/tp1.elf.dir/src/button.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/WDbk/Users/Hernan/Documents/UTN/2026/digitales2/real_tp1/src/button.c -o CMakeFiles/tp1.elf.dir/src/button.c.s
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/hernan/Documents/UTN/2026/digitales/real_tp1/src/button.c -o CMakeFiles/tp1.elf.dir/src/button.c.s
 
 CMakeFiles/tp1.elf.dir/src/led.c.obj: CMakeFiles/tp1.elf.dir/flags.make
 CMakeFiles/tp1.elf.dir/src/led.c.obj: src/led.c
 CMakeFiles/tp1.elf.dir/src/led.c.obj: CMakeFiles/tp1.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/WDbk/Users/Hernan/Documents/UTN/2026/digitales2/real_tp1/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/tp1.elf.dir/src/led.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/tp1.elf.dir/src/led.c.obj -MF CMakeFiles/tp1.elf.dir/src/led.c.obj.d -o CMakeFiles/tp1.elf.dir/src/led.c.obj -c /mnt/WDbk/Users/Hernan/Documents/UTN/2026/digitales2/real_tp1/src/led.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/hernan/Documents/UTN/2026/digitales/real_tp1/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/tp1.elf.dir/src/led.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/tp1.elf.dir/src/led.c.obj -MF CMakeFiles/tp1.elf.dir/src/led.c.obj.d -o CMakeFiles/tp1.elf.dir/src/led.c.obj -c /home/hernan/Documents/UTN/2026/digitales/real_tp1/src/led.c
 
 CMakeFiles/tp1.elf.dir/src/led.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/tp1.elf.dir/src/led.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/WDbk/Users/Hernan/Documents/UTN/2026/digitales2/real_tp1/src/led.c > CMakeFiles/tp1.elf.dir/src/led.c.i
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/hernan/Documents/UTN/2026/digitales/real_tp1/src/led.c > CMakeFiles/tp1.elf.dir/src/led.c.i
 
 CMakeFiles/tp1.elf.dir/src/led.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/tp1.elf.dir/src/led.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/WDbk/Users/Hernan/Documents/UTN/2026/digitales2/real_tp1/src/led.c -o CMakeFiles/tp1.elf.dir/src/led.c.s
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/hernan/Documents/UTN/2026/digitales/real_tp1/src/led.c -o CMakeFiles/tp1.elf.dir/src/led.c.s
 
 CMakeFiles/tp1.elf.dir/src/timer.c.obj: CMakeFiles/tp1.elf.dir/flags.make
 CMakeFiles/tp1.elf.dir/src/timer.c.obj: src/timer.c
 CMakeFiles/tp1.elf.dir/src/timer.c.obj: CMakeFiles/tp1.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/WDbk/Users/Hernan/Documents/UTN/2026/digitales2/real_tp1/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/tp1.elf.dir/src/timer.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/tp1.elf.dir/src/timer.c.obj -MF CMakeFiles/tp1.elf.dir/src/timer.c.obj.d -o CMakeFiles/tp1.elf.dir/src/timer.c.obj -c /mnt/WDbk/Users/Hernan/Documents/UTN/2026/digitales2/real_tp1/src/timer.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/hernan/Documents/UTN/2026/digitales/real_tp1/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/tp1.elf.dir/src/timer.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/tp1.elf.dir/src/timer.c.obj -MF CMakeFiles/tp1.elf.dir/src/timer.c.obj.d -o CMakeFiles/tp1.elf.dir/src/timer.c.obj -c /home/hernan/Documents/UTN/2026/digitales/real_tp1/src/timer.c
 
 CMakeFiles/tp1.elf.dir/src/timer.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/tp1.elf.dir/src/timer.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/WDbk/Users/Hernan/Documents/UTN/2026/digitales2/real_tp1/src/timer.c > CMakeFiles/tp1.elf.dir/src/timer.c.i
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/hernan/Documents/UTN/2026/digitales/real_tp1/src/timer.c > CMakeFiles/tp1.elf.dir/src/timer.c.i
 
 CMakeFiles/tp1.elf.dir/src/timer.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/tp1.elf.dir/src/timer.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/WDbk/Users/Hernan/Documents/UTN/2026/digitales2/real_tp1/src/timer.c -o CMakeFiles/tp1.elf.dir/src/timer.c.s
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/hernan/Documents/UTN/2026/digitales/real_tp1/src/timer.c -o CMakeFiles/tp1.elf.dir/src/timer.c.s
 
 CMakeFiles/tp1.elf.dir/src/usart.c.obj: CMakeFiles/tp1.elf.dir/flags.make
 CMakeFiles/tp1.elf.dir/src/usart.c.obj: src/usart.c
 CMakeFiles/tp1.elf.dir/src/usart.c.obj: CMakeFiles/tp1.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/WDbk/Users/Hernan/Documents/UTN/2026/digitales2/real_tp1/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/tp1.elf.dir/src/usart.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/tp1.elf.dir/src/usart.c.obj -MF CMakeFiles/tp1.elf.dir/src/usart.c.obj.d -o CMakeFiles/tp1.elf.dir/src/usart.c.obj -c /mnt/WDbk/Users/Hernan/Documents/UTN/2026/digitales2/real_tp1/src/usart.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/hernan/Documents/UTN/2026/digitales/real_tp1/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/tp1.elf.dir/src/usart.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/tp1.elf.dir/src/usart.c.obj -MF CMakeFiles/tp1.elf.dir/src/usart.c.obj.d -o CMakeFiles/tp1.elf.dir/src/usart.c.obj -c /home/hernan/Documents/UTN/2026/digitales/real_tp1/src/usart.c
 
 CMakeFiles/tp1.elf.dir/src/usart.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/tp1.elf.dir/src/usart.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/WDbk/Users/Hernan/Documents/UTN/2026/digitales2/real_tp1/src/usart.c > CMakeFiles/tp1.elf.dir/src/usart.c.i
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/hernan/Documents/UTN/2026/digitales/real_tp1/src/usart.c > CMakeFiles/tp1.elf.dir/src/usart.c.i
 
 CMakeFiles/tp1.elf.dir/src/usart.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/tp1.elf.dir/src/usart.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/WDbk/Users/Hernan/Documents/UTN/2026/digitales2/real_tp1/src/usart.c -o CMakeFiles/tp1.elf.dir/src/usart.c.s
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/hernan/Documents/UTN/2026/digitales/real_tp1/src/usart.c -o CMakeFiles/tp1.elf.dir/src/usart.c.s
 
 CMakeFiles/tp1.elf.dir/main.c.obj: CMakeFiles/tp1.elf.dir/flags.make
 CMakeFiles/tp1.elf.dir/main.c.obj: main.c
 CMakeFiles/tp1.elf.dir/main.c.obj: CMakeFiles/tp1.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/WDbk/Users/Hernan/Documents/UTN/2026/digitales2/real_tp1/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/tp1.elf.dir/main.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/tp1.elf.dir/main.c.obj -MF CMakeFiles/tp1.elf.dir/main.c.obj.d -o CMakeFiles/tp1.elf.dir/main.c.obj -c /mnt/WDbk/Users/Hernan/Documents/UTN/2026/digitales2/real_tp1/main.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/hernan/Documents/UTN/2026/digitales/real_tp1/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/tp1.elf.dir/main.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/tp1.elf.dir/main.c.obj -MF CMakeFiles/tp1.elf.dir/main.c.obj.d -o CMakeFiles/tp1.elf.dir/main.c.obj -c /home/hernan/Documents/UTN/2026/digitales/real_tp1/main.c
 
 CMakeFiles/tp1.elf.dir/main.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/tp1.elf.dir/main.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/WDbk/Users/Hernan/Documents/UTN/2026/digitales2/real_tp1/main.c > CMakeFiles/tp1.elf.dir/main.c.i
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/hernan/Documents/UTN/2026/digitales/real_tp1/main.c > CMakeFiles/tp1.elf.dir/main.c.i
 
 CMakeFiles/tp1.elf.dir/main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/tp1.elf.dir/main.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/WDbk/Users/Hernan/Documents/UTN/2026/digitales2/real_tp1/main.c -o CMakeFiles/tp1.elf.dir/main.c.s
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/hernan/Documents/UTN/2026/digitales/real_tp1/main.c -o CMakeFiles/tp1.elf.dir/main.c.s
 
 CMakeFiles/tp1.elf.dir/home/hernan/SDK_25_06_00_LPC845BREAKOUT/components/uart/fsl_adapter_miniusart.c.obj: CMakeFiles/tp1.elf.dir/flags.make
 CMakeFiles/tp1.elf.dir/home/hernan/SDK_25_06_00_LPC845BREAKOUT/components/uart/fsl_adapter_miniusart.c.obj: /home/hernan/SDK_25_06_00_LPC845BREAKOUT/components/uart/fsl_adapter_miniusart.c
 CMakeFiles/tp1.elf.dir/home/hernan/SDK_25_06_00_LPC845BREAKOUT/components/uart/fsl_adapter_miniusart.c.obj: CMakeFiles/tp1.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/WDbk/Users/Hernan/Documents/UTN/2026/digitales2/real_tp1/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/tp1.elf.dir/home/hernan/SDK_25_06_00_LPC845BREAKOUT/components/uart/fsl_adapter_miniusart.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/hernan/Documents/UTN/2026/digitales/real_tp1/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/tp1.elf.dir/home/hernan/SDK_25_06_00_LPC845BREAKOUT/components/uart/fsl_adapter_miniusart.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/tp1.elf.dir/home/hernan/SDK_25_06_00_LPC845BREAKOUT/components/uart/fsl_adapter_miniusart.c.obj -MF CMakeFiles/tp1.elf.dir/home/hernan/SDK_25_06_00_LPC845BREAKOUT/components/uart/fsl_adapter_miniusart.c.obj.d -o CMakeFiles/tp1.elf.dir/home/hernan/SDK_25_06_00_LPC845BREAKOUT/components/uart/fsl_adapter_miniusart.c.obj -c /home/hernan/SDK_25_06_00_LPC845BREAKOUT/components/uart/fsl_adapter_miniusart.c
 
 CMakeFiles/tp1.elf.dir/home/hernan/SDK_25_06_00_LPC845BREAKOUT/components/uart/fsl_adapter_miniusart.c.i: cmake_force
@@ -228,7 +228,7 @@ CMakeFiles/tp1.elf.dir/home/hernan/SDK_25_06_00_LPC845BREAKOUT/components/uart/f
 
 CMakeFiles/tp1.elf.dir/home/hernan/SDK_25_06_00_LPC845BREAKOUT/devices/LPC845/gcc/startup_LPC845.S.obj: CMakeFiles/tp1.elf.dir/flags.make
 CMakeFiles/tp1.elf.dir/home/hernan/SDK_25_06_00_LPC845BREAKOUT/devices/LPC845/gcc/startup_LPC845.S.obj: /home/hernan/SDK_25_06_00_LPC845BREAKOUT/devices/LPC845/gcc/startup_LPC845.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/WDbk/Users/Hernan/Documents/UTN/2026/digitales2/real_tp1/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building ASM object CMakeFiles/tp1.elf.dir/home/hernan/SDK_25_06_00_LPC845BREAKOUT/devices/LPC845/gcc/startup_LPC845.S.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/hernan/Documents/UTN/2026/digitales/real_tp1/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building ASM object CMakeFiles/tp1.elf.dir/home/hernan/SDK_25_06_00_LPC845BREAKOUT/devices/LPC845/gcc/startup_LPC845.S.obj"
 	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/tp1.elf.dir/home/hernan/SDK_25_06_00_LPC845BREAKOUT/devices/LPC845/gcc/startup_LPC845.S.obj -c /home/hernan/SDK_25_06_00_LPC845BREAKOUT/devices/LPC845/gcc/startup_LPC845.S
 
 CMakeFiles/tp1.elf.dir/home/hernan/SDK_25_06_00_LPC845BREAKOUT/devices/LPC845/gcc/startup_LPC845.S.i: cmake_force
@@ -242,7 +242,7 @@ CMakeFiles/tp1.elf.dir/home/hernan/SDK_25_06_00_LPC845BREAKOUT/devices/LPC845/gc
 CMakeFiles/tp1.elf.dir/home/hernan/SDK_25_06_00_LPC845BREAKOUT/devices/LPC845/system_LPC845.c.obj: CMakeFiles/tp1.elf.dir/flags.make
 CMakeFiles/tp1.elf.dir/home/hernan/SDK_25_06_00_LPC845BREAKOUT/devices/LPC845/system_LPC845.c.obj: /home/hernan/SDK_25_06_00_LPC845BREAKOUT/devices/LPC845/system_LPC845.c
 CMakeFiles/tp1.elf.dir/home/hernan/SDK_25_06_00_LPC845BREAKOUT/devices/LPC845/system_LPC845.c.obj: CMakeFiles/tp1.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/WDbk/Users/Hernan/Documents/UTN/2026/digitales2/real_tp1/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/tp1.elf.dir/home/hernan/SDK_25_06_00_LPC845BREAKOUT/devices/LPC845/system_LPC845.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/hernan/Documents/UTN/2026/digitales/real_tp1/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/tp1.elf.dir/home/hernan/SDK_25_06_00_LPC845BREAKOUT/devices/LPC845/system_LPC845.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/tp1.elf.dir/home/hernan/SDK_25_06_00_LPC845BREAKOUT/devices/LPC845/system_LPC845.c.obj -MF CMakeFiles/tp1.elf.dir/home/hernan/SDK_25_06_00_LPC845BREAKOUT/devices/LPC845/system_LPC845.c.obj.d -o CMakeFiles/tp1.elf.dir/home/hernan/SDK_25_06_00_LPC845BREAKOUT/devices/LPC845/system_LPC845.c.obj -c /home/hernan/SDK_25_06_00_LPC845BREAKOUT/devices/LPC845/system_LPC845.c
 
 CMakeFiles/tp1.elf.dir/home/hernan/SDK_25_06_00_LPC845BREAKOUT/devices/LPC845/system_LPC845.c.i: cmake_force
@@ -256,7 +256,7 @@ CMakeFiles/tp1.elf.dir/home/hernan/SDK_25_06_00_LPC845BREAKOUT/devices/LPC845/sy
 CMakeFiles/tp1.elf.dir/home/hernan/SDK_25_06_00_LPC845BREAKOUT/devices/LPC845/drivers/fsl_clock.c.obj: CMakeFiles/tp1.elf.dir/flags.make
 CMakeFiles/tp1.elf.dir/home/hernan/SDK_25_06_00_LPC845BREAKOUT/devices/LPC845/drivers/fsl_clock.c.obj: /home/hernan/SDK_25_06_00_LPC845BREAKOUT/devices/LPC845/drivers/fsl_clock.c
 CMakeFiles/tp1.elf.dir/home/hernan/SDK_25_06_00_LPC845BREAKOUT/devices/LPC845/drivers/fsl_clock.c.obj: CMakeFiles/tp1.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/WDbk/Users/Hernan/Documents/UTN/2026/digitales2/real_tp1/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/tp1.elf.dir/home/hernan/SDK_25_06_00_LPC845BREAKOUT/devices/LPC845/drivers/fsl_clock.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/hernan/Documents/UTN/2026/digitales/real_tp1/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/tp1.elf.dir/home/hernan/SDK_25_06_00_LPC845BREAKOUT/devices/LPC845/drivers/fsl_clock.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/tp1.elf.dir/home/hernan/SDK_25_06_00_LPC845BREAKOUT/devices/LPC845/drivers/fsl_clock.c.obj -MF CMakeFiles/tp1.elf.dir/home/hernan/SDK_25_06_00_LPC845BREAKOUT/devices/LPC845/drivers/fsl_clock.c.obj.d -o CMakeFiles/tp1.elf.dir/home/hernan/SDK_25_06_00_LPC845BREAKOUT/devices/LPC845/drivers/fsl_clock.c.obj -c /home/hernan/SDK_25_06_00_LPC845BREAKOUT/devices/LPC845/drivers/fsl_clock.c
 
 CMakeFiles/tp1.elf.dir/home/hernan/SDK_25_06_00_LPC845BREAKOUT/devices/LPC845/drivers/fsl_clock.c.i: cmake_force
@@ -270,7 +270,7 @@ CMakeFiles/tp1.elf.dir/home/hernan/SDK_25_06_00_LPC845BREAKOUT/devices/LPC845/dr
 CMakeFiles/tp1.elf.dir/home/hernan/SDK_25_06_00_LPC845BREAKOUT/devices/LPC845/drivers/fsl_common.c.obj: CMakeFiles/tp1.elf.dir/flags.make
 CMakeFiles/tp1.elf.dir/home/hernan/SDK_25_06_00_LPC845BREAKOUT/devices/LPC845/drivers/fsl_common.c.obj: /home/hernan/SDK_25_06_00_LPC845BREAKOUT/devices/LPC845/drivers/fsl_common.c
 CMakeFiles/tp1.elf.dir/home/hernan/SDK_25_06_00_LPC845BREAKOUT/devices/LPC845/drivers/fsl_common.c.obj: CMakeFiles/tp1.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/WDbk/Users/Hernan/Documents/UTN/2026/digitales2/real_tp1/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/tp1.elf.dir/home/hernan/SDK_25_06_00_LPC845BREAKOUT/devices/LPC845/drivers/fsl_common.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/hernan/Documents/UTN/2026/digitales/real_tp1/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/tp1.elf.dir/home/hernan/SDK_25_06_00_LPC845BREAKOUT/devices/LPC845/drivers/fsl_common.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/tp1.elf.dir/home/hernan/SDK_25_06_00_LPC845BREAKOUT/devices/LPC845/drivers/fsl_common.c.obj -MF CMakeFiles/tp1.elf.dir/home/hernan/SDK_25_06_00_LPC845BREAKOUT/devices/LPC845/drivers/fsl_common.c.obj.d -o CMakeFiles/tp1.elf.dir/home/hernan/SDK_25_06_00_LPC845BREAKOUT/devices/LPC845/drivers/fsl_common.c.obj -c /home/hernan/SDK_25_06_00_LPC845BREAKOUT/devices/LPC845/drivers/fsl_common.c
 
 CMakeFiles/tp1.elf.dir/home/hernan/SDK_25_06_00_LPC845BREAKOUT/devices/LPC845/drivers/fsl_common.c.i: cmake_force
@@ -284,7 +284,7 @@ CMakeFiles/tp1.elf.dir/home/hernan/SDK_25_06_00_LPC845BREAKOUT/devices/LPC845/dr
 CMakeFiles/tp1.elf.dir/home/hernan/SDK_25_06_00_LPC845BREAKOUT/devices/LPC845/drivers/fsl_common_arm.c.obj: CMakeFiles/tp1.elf.dir/flags.make
 CMakeFiles/tp1.elf.dir/home/hernan/SDK_25_06_00_LPC845BREAKOUT/devices/LPC845/drivers/fsl_common_arm.c.obj: /home/hernan/SDK_25_06_00_LPC845BREAKOUT/devices/LPC845/drivers/fsl_common_arm.c
 CMakeFiles/tp1.elf.dir/home/hernan/SDK_25_06_00_LPC845BREAKOUT/devices/LPC845/drivers/fsl_common_arm.c.obj: CMakeFiles/tp1.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/WDbk/Users/Hernan/Documents/UTN/2026/digitales2/real_tp1/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/tp1.elf.dir/home/hernan/SDK_25_06_00_LPC845BREAKOUT/devices/LPC845/drivers/fsl_common_arm.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/hernan/Documents/UTN/2026/digitales/real_tp1/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/tp1.elf.dir/home/hernan/SDK_25_06_00_LPC845BREAKOUT/devices/LPC845/drivers/fsl_common_arm.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/tp1.elf.dir/home/hernan/SDK_25_06_00_LPC845BREAKOUT/devices/LPC845/drivers/fsl_common_arm.c.obj -MF CMakeFiles/tp1.elf.dir/home/hernan/SDK_25_06_00_LPC845BREAKOUT/devices/LPC845/drivers/fsl_common_arm.c.obj.d -o CMakeFiles/tp1.elf.dir/home/hernan/SDK_25_06_00_LPC845BREAKOUT/devices/LPC845/drivers/fsl_common_arm.c.obj -c /home/hernan/SDK_25_06_00_LPC845BREAKOUT/devices/LPC845/drivers/fsl_common_arm.c
 
 CMakeFiles/tp1.elf.dir/home/hernan/SDK_25_06_00_LPC845BREAKOUT/devices/LPC845/drivers/fsl_common_arm.c.i: cmake_force
@@ -298,7 +298,7 @@ CMakeFiles/tp1.elf.dir/home/hernan/SDK_25_06_00_LPC845BREAKOUT/devices/LPC845/dr
 CMakeFiles/tp1.elf.dir/home/hernan/SDK_25_06_00_LPC845BREAKOUT/devices/LPC845/drivers/fsl_inputmux.c.obj: CMakeFiles/tp1.elf.dir/flags.make
 CMakeFiles/tp1.elf.dir/home/hernan/SDK_25_06_00_LPC845BREAKOUT/devices/LPC845/drivers/fsl_inputmux.c.obj: /home/hernan/SDK_25_06_00_LPC845BREAKOUT/devices/LPC845/drivers/fsl_inputmux.c
 CMakeFiles/tp1.elf.dir/home/hernan/SDK_25_06_00_LPC845BREAKOUT/devices/LPC845/drivers/fsl_inputmux.c.obj: CMakeFiles/tp1.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/WDbk/Users/Hernan/Documents/UTN/2026/digitales2/real_tp1/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/tp1.elf.dir/home/hernan/SDK_25_06_00_LPC845BREAKOUT/devices/LPC845/drivers/fsl_inputmux.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/hernan/Documents/UTN/2026/digitales/real_tp1/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/tp1.elf.dir/home/hernan/SDK_25_06_00_LPC845BREAKOUT/devices/LPC845/drivers/fsl_inputmux.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/tp1.elf.dir/home/hernan/SDK_25_06_00_LPC845BREAKOUT/devices/LPC845/drivers/fsl_inputmux.c.obj -MF CMakeFiles/tp1.elf.dir/home/hernan/SDK_25_06_00_LPC845BREAKOUT/devices/LPC845/drivers/fsl_inputmux.c.obj.d -o CMakeFiles/tp1.elf.dir/home/hernan/SDK_25_06_00_LPC845BREAKOUT/devices/LPC845/drivers/fsl_inputmux.c.obj -c /home/hernan/SDK_25_06_00_LPC845BREAKOUT/devices/LPC845/drivers/fsl_inputmux.c
 
 CMakeFiles/tp1.elf.dir/home/hernan/SDK_25_06_00_LPC845BREAKOUT/devices/LPC845/drivers/fsl_inputmux.c.i: cmake_force
@@ -312,7 +312,7 @@ CMakeFiles/tp1.elf.dir/home/hernan/SDK_25_06_00_LPC845BREAKOUT/devices/LPC845/dr
 CMakeFiles/tp1.elf.dir/home/hernan/SDK_25_06_00_LPC845BREAKOUT/devices/LPC845/drivers/fsl_adc.c.obj: CMakeFiles/tp1.elf.dir/flags.make
 CMakeFiles/tp1.elf.dir/home/hernan/SDK_25_06_00_LPC845BREAKOUT/devices/LPC845/drivers/fsl_adc.c.obj: /home/hernan/SDK_25_06_00_LPC845BREAKOUT/devices/LPC845/drivers/fsl_adc.c
 CMakeFiles/tp1.elf.dir/home/hernan/SDK_25_06_00_LPC845BREAKOUT/devices/LPC845/drivers/fsl_adc.c.obj: CMakeFiles/tp1.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/WDbk/Users/Hernan/Documents/UTN/2026/digitales2/real_tp1/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/tp1.elf.dir/home/hernan/SDK_25_06_00_LPC845BREAKOUT/devices/LPC845/drivers/fsl_adc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/hernan/Documents/UTN/2026/digitales/real_tp1/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/tp1.elf.dir/home/hernan/SDK_25_06_00_LPC845BREAKOUT/devices/LPC845/drivers/fsl_adc.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/tp1.elf.dir/home/hernan/SDK_25_06_00_LPC845BREAKOUT/devices/LPC845/drivers/fsl_adc.c.obj -MF CMakeFiles/tp1.elf.dir/home/hernan/SDK_25_06_00_LPC845BREAKOUT/devices/LPC845/drivers/fsl_adc.c.obj.d -o CMakeFiles/tp1.elf.dir/home/hernan/SDK_25_06_00_LPC845BREAKOUT/devices/LPC845/drivers/fsl_adc.c.obj -c /home/hernan/SDK_25_06_00_LPC845BREAKOUT/devices/LPC845/drivers/fsl_adc.c
 
 CMakeFiles/tp1.elf.dir/home/hernan/SDK_25_06_00_LPC845BREAKOUT/devices/LPC845/drivers/fsl_adc.c.i: cmake_force
@@ -326,7 +326,7 @@ CMakeFiles/tp1.elf.dir/home/hernan/SDK_25_06_00_LPC845BREAKOUT/devices/LPC845/dr
 CMakeFiles/tp1.elf.dir/home/hernan/SDK_25_06_00_LPC845BREAKOUT/devices/LPC845/drivers/fsl_gpio.c.obj: CMakeFiles/tp1.elf.dir/flags.make
 CMakeFiles/tp1.elf.dir/home/hernan/SDK_25_06_00_LPC845BREAKOUT/devices/LPC845/drivers/fsl_gpio.c.obj: /home/hernan/SDK_25_06_00_LPC845BREAKOUT/devices/LPC845/drivers/fsl_gpio.c
 CMakeFiles/tp1.elf.dir/home/hernan/SDK_25_06_00_LPC845BREAKOUT/devices/LPC845/drivers/fsl_gpio.c.obj: CMakeFiles/tp1.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/WDbk/Users/Hernan/Documents/UTN/2026/digitales2/real_tp1/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/tp1.elf.dir/home/hernan/SDK_25_06_00_LPC845BREAKOUT/devices/LPC845/drivers/fsl_gpio.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/hernan/Documents/UTN/2026/digitales/real_tp1/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/tp1.elf.dir/home/hernan/SDK_25_06_00_LPC845BREAKOUT/devices/LPC845/drivers/fsl_gpio.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/tp1.elf.dir/home/hernan/SDK_25_06_00_LPC845BREAKOUT/devices/LPC845/drivers/fsl_gpio.c.obj -MF CMakeFiles/tp1.elf.dir/home/hernan/SDK_25_06_00_LPC845BREAKOUT/devices/LPC845/drivers/fsl_gpio.c.obj.d -o CMakeFiles/tp1.elf.dir/home/hernan/SDK_25_06_00_LPC845BREAKOUT/devices/LPC845/drivers/fsl_gpio.c.obj -c /home/hernan/SDK_25_06_00_LPC845BREAKOUT/devices/LPC845/drivers/fsl_gpio.c
 
 CMakeFiles/tp1.elf.dir/home/hernan/SDK_25_06_00_LPC845BREAKOUT/devices/LPC845/drivers/fsl_gpio.c.i: cmake_force
@@ -340,7 +340,7 @@ CMakeFiles/tp1.elf.dir/home/hernan/SDK_25_06_00_LPC845BREAKOUT/devices/LPC845/dr
 CMakeFiles/tp1.elf.dir/home/hernan/SDK_25_06_00_LPC845BREAKOUT/devices/LPC845/drivers/fsl_usart.c.obj: CMakeFiles/tp1.elf.dir/flags.make
 CMakeFiles/tp1.elf.dir/home/hernan/SDK_25_06_00_LPC845BREAKOUT/devices/LPC845/drivers/fsl_usart.c.obj: /home/hernan/SDK_25_06_00_LPC845BREAKOUT/devices/LPC845/drivers/fsl_usart.c
 CMakeFiles/tp1.elf.dir/home/hernan/SDK_25_06_00_LPC845BREAKOUT/devices/LPC845/drivers/fsl_usart.c.obj: CMakeFiles/tp1.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/WDbk/Users/Hernan/Documents/UTN/2026/digitales2/real_tp1/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/tp1.elf.dir/home/hernan/SDK_25_06_00_LPC845BREAKOUT/devices/LPC845/drivers/fsl_usart.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/hernan/Documents/UTN/2026/digitales/real_tp1/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/tp1.elf.dir/home/hernan/SDK_25_06_00_LPC845BREAKOUT/devices/LPC845/drivers/fsl_usart.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/tp1.elf.dir/home/hernan/SDK_25_06_00_LPC845BREAKOUT/devices/LPC845/drivers/fsl_usart.c.obj -MF CMakeFiles/tp1.elf.dir/home/hernan/SDK_25_06_00_LPC845BREAKOUT/devices/LPC845/drivers/fsl_usart.c.obj.d -o CMakeFiles/tp1.elf.dir/home/hernan/SDK_25_06_00_LPC845BREAKOUT/devices/LPC845/drivers/fsl_usart.c.obj -c /home/hernan/SDK_25_06_00_LPC845BREAKOUT/devices/LPC845/drivers/fsl_usart.c
 
 CMakeFiles/tp1.elf.dir/home/hernan/SDK_25_06_00_LPC845BREAKOUT/devices/LPC845/drivers/fsl_usart.c.i: cmake_force
@@ -354,7 +354,7 @@ CMakeFiles/tp1.elf.dir/home/hernan/SDK_25_06_00_LPC845BREAKOUT/devices/LPC845/dr
 CMakeFiles/tp1.elf.dir/home/hernan/SDK_25_06_00_LPC845BREAKOUT/devices/LPC845/drivers/fsl_pint.c.obj: CMakeFiles/tp1.elf.dir/flags.make
 CMakeFiles/tp1.elf.dir/home/hernan/SDK_25_06_00_LPC845BREAKOUT/devices/LPC845/drivers/fsl_pint.c.obj: /home/hernan/SDK_25_06_00_LPC845BREAKOUT/devices/LPC845/drivers/fsl_pint.c
 CMakeFiles/tp1.elf.dir/home/hernan/SDK_25_06_00_LPC845BREAKOUT/devices/LPC845/drivers/fsl_pint.c.obj: CMakeFiles/tp1.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/WDbk/Users/Hernan/Documents/UTN/2026/digitales2/real_tp1/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/tp1.elf.dir/home/hernan/SDK_25_06_00_LPC845BREAKOUT/devices/LPC845/drivers/fsl_pint.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/hernan/Documents/UTN/2026/digitales/real_tp1/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/tp1.elf.dir/home/hernan/SDK_25_06_00_LPC845BREAKOUT/devices/LPC845/drivers/fsl_pint.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/tp1.elf.dir/home/hernan/SDK_25_06_00_LPC845BREAKOUT/devices/LPC845/drivers/fsl_pint.c.obj -MF CMakeFiles/tp1.elf.dir/home/hernan/SDK_25_06_00_LPC845BREAKOUT/devices/LPC845/drivers/fsl_pint.c.obj.d -o CMakeFiles/tp1.elf.dir/home/hernan/SDK_25_06_00_LPC845BREAKOUT/devices/LPC845/drivers/fsl_pint.c.obj -c /home/hernan/SDK_25_06_00_LPC845BREAKOUT/devices/LPC845/drivers/fsl_pint.c
 
 CMakeFiles/tp1.elf.dir/home/hernan/SDK_25_06_00_LPC845BREAKOUT/devices/LPC845/drivers/fsl_pint.c.i: cmake_force
@@ -368,7 +368,7 @@ CMakeFiles/tp1.elf.dir/home/hernan/SDK_25_06_00_LPC845BREAKOUT/devices/LPC845/dr
 CMakeFiles/tp1.elf.dir/home/hernan/SDK_25_06_00_LPC845BREAKOUT/devices/LPC845/drivers/fsl_power.c.obj: CMakeFiles/tp1.elf.dir/flags.make
 CMakeFiles/tp1.elf.dir/home/hernan/SDK_25_06_00_LPC845BREAKOUT/devices/LPC845/drivers/fsl_power.c.obj: /home/hernan/SDK_25_06_00_LPC845BREAKOUT/devices/LPC845/drivers/fsl_power.c
 CMakeFiles/tp1.elf.dir/home/hernan/SDK_25_06_00_LPC845BREAKOUT/devices/LPC845/drivers/fsl_power.c.obj: CMakeFiles/tp1.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/WDbk/Users/Hernan/Documents/UTN/2026/digitales2/real_tp1/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/tp1.elf.dir/home/hernan/SDK_25_06_00_LPC845BREAKOUT/devices/LPC845/drivers/fsl_power.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/hernan/Documents/UTN/2026/digitales/real_tp1/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/tp1.elf.dir/home/hernan/SDK_25_06_00_LPC845BREAKOUT/devices/LPC845/drivers/fsl_power.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/tp1.elf.dir/home/hernan/SDK_25_06_00_LPC845BREAKOUT/devices/LPC845/drivers/fsl_power.c.obj -MF CMakeFiles/tp1.elf.dir/home/hernan/SDK_25_06_00_LPC845BREAKOUT/devices/LPC845/drivers/fsl_power.c.obj.d -o CMakeFiles/tp1.elf.dir/home/hernan/SDK_25_06_00_LPC845BREAKOUT/devices/LPC845/drivers/fsl_power.c.obj -c /home/hernan/SDK_25_06_00_LPC845BREAKOUT/devices/LPC845/drivers/fsl_power.c
 
 CMakeFiles/tp1.elf.dir/home/hernan/SDK_25_06_00_LPC845BREAKOUT/devices/LPC845/drivers/fsl_power.c.i: cmake_force
@@ -382,7 +382,7 @@ CMakeFiles/tp1.elf.dir/home/hernan/SDK_25_06_00_LPC845BREAKOUT/devices/LPC845/dr
 CMakeFiles/tp1.elf.dir/home/hernan/SDK_25_06_00_LPC845BREAKOUT/devices/LPC845/drivers/fsl_reset.c.obj: CMakeFiles/tp1.elf.dir/flags.make
 CMakeFiles/tp1.elf.dir/home/hernan/SDK_25_06_00_LPC845BREAKOUT/devices/LPC845/drivers/fsl_reset.c.obj: /home/hernan/SDK_25_06_00_LPC845BREAKOUT/devices/LPC845/drivers/fsl_reset.c
 CMakeFiles/tp1.elf.dir/home/hernan/SDK_25_06_00_LPC845BREAKOUT/devices/LPC845/drivers/fsl_reset.c.obj: CMakeFiles/tp1.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/WDbk/Users/Hernan/Documents/UTN/2026/digitales2/real_tp1/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/tp1.elf.dir/home/hernan/SDK_25_06_00_LPC845BREAKOUT/devices/LPC845/drivers/fsl_reset.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/hernan/Documents/UTN/2026/digitales/real_tp1/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/tp1.elf.dir/home/hernan/SDK_25_06_00_LPC845BREAKOUT/devices/LPC845/drivers/fsl_reset.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/tp1.elf.dir/home/hernan/SDK_25_06_00_LPC845BREAKOUT/devices/LPC845/drivers/fsl_reset.c.obj -MF CMakeFiles/tp1.elf.dir/home/hernan/SDK_25_06_00_LPC845BREAKOUT/devices/LPC845/drivers/fsl_reset.c.obj.d -o CMakeFiles/tp1.elf.dir/home/hernan/SDK_25_06_00_LPC845BREAKOUT/devices/LPC845/drivers/fsl_reset.c.obj -c /home/hernan/SDK_25_06_00_LPC845BREAKOUT/devices/LPC845/drivers/fsl_reset.c
 
 CMakeFiles/tp1.elf.dir/home/hernan/SDK_25_06_00_LPC845BREAKOUT/devices/LPC845/drivers/fsl_reset.c.i: cmake_force
@@ -396,7 +396,7 @@ CMakeFiles/tp1.elf.dir/home/hernan/SDK_25_06_00_LPC845BREAKOUT/devices/LPC845/dr
 CMakeFiles/tp1.elf.dir/home/hernan/SDK_25_06_00_LPC845BREAKOUT/devices/LPC845/drivers/fsl_swm.c.obj: CMakeFiles/tp1.elf.dir/flags.make
 CMakeFiles/tp1.elf.dir/home/hernan/SDK_25_06_00_LPC845BREAKOUT/devices/LPC845/drivers/fsl_swm.c.obj: /home/hernan/SDK_25_06_00_LPC845BREAKOUT/devices/LPC845/drivers/fsl_swm.c
 CMakeFiles/tp1.elf.dir/home/hernan/SDK_25_06_00_LPC845BREAKOUT/devices/LPC845/drivers/fsl_swm.c.obj: CMakeFiles/tp1.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/WDbk/Users/Hernan/Documents/UTN/2026/digitales2/real_tp1/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/tp1.elf.dir/home/hernan/SDK_25_06_00_LPC845BREAKOUT/devices/LPC845/drivers/fsl_swm.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/hernan/Documents/UTN/2026/digitales/real_tp1/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/tp1.elf.dir/home/hernan/SDK_25_06_00_LPC845BREAKOUT/devices/LPC845/drivers/fsl_swm.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/tp1.elf.dir/home/hernan/SDK_25_06_00_LPC845BREAKOUT/devices/LPC845/drivers/fsl_swm.c.obj -MF CMakeFiles/tp1.elf.dir/home/hernan/SDK_25_06_00_LPC845BREAKOUT/devices/LPC845/drivers/fsl_swm.c.obj.d -o CMakeFiles/tp1.elf.dir/home/hernan/SDK_25_06_00_LPC845BREAKOUT/devices/LPC845/drivers/fsl_swm.c.obj -c /home/hernan/SDK_25_06_00_LPC845BREAKOUT/devices/LPC845/drivers/fsl_swm.c
 
 CMakeFiles/tp1.elf.dir/home/hernan/SDK_25_06_00_LPC845BREAKOUT/devices/LPC845/drivers/fsl_swm.c.i: cmake_force
@@ -410,7 +410,7 @@ CMakeFiles/tp1.elf.dir/home/hernan/SDK_25_06_00_LPC845BREAKOUT/devices/LPC845/dr
 CMakeFiles/tp1.elf.dir/home/hernan/SDK_25_06_00_LPC845BREAKOUT/devices/LPC845/drivers/fsl_syscon.c.obj: CMakeFiles/tp1.elf.dir/flags.make
 CMakeFiles/tp1.elf.dir/home/hernan/SDK_25_06_00_LPC845BREAKOUT/devices/LPC845/drivers/fsl_syscon.c.obj: /home/hernan/SDK_25_06_00_LPC845BREAKOUT/devices/LPC845/drivers/fsl_syscon.c
 CMakeFiles/tp1.elf.dir/home/hernan/SDK_25_06_00_LPC845BREAKOUT/devices/LPC845/drivers/fsl_syscon.c.obj: CMakeFiles/tp1.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/WDbk/Users/Hernan/Documents/UTN/2026/digitales2/real_tp1/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/tp1.elf.dir/home/hernan/SDK_25_06_00_LPC845BREAKOUT/devices/LPC845/drivers/fsl_syscon.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/hernan/Documents/UTN/2026/digitales/real_tp1/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/tp1.elf.dir/home/hernan/SDK_25_06_00_LPC845BREAKOUT/devices/LPC845/drivers/fsl_syscon.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/tp1.elf.dir/home/hernan/SDK_25_06_00_LPC845BREAKOUT/devices/LPC845/drivers/fsl_syscon.c.obj -MF CMakeFiles/tp1.elf.dir/home/hernan/SDK_25_06_00_LPC845BREAKOUT/devices/LPC845/drivers/fsl_syscon.c.obj.d -o CMakeFiles/tp1.elf.dir/home/hernan/SDK_25_06_00_LPC845BREAKOUT/devices/LPC845/drivers/fsl_syscon.c.obj -c /home/hernan/SDK_25_06_00_LPC845BREAKOUT/devices/LPC845/drivers/fsl_syscon.c
 
 CMakeFiles/tp1.elf.dir/home/hernan/SDK_25_06_00_LPC845BREAKOUT/devices/LPC845/drivers/fsl_syscon.c.i: cmake_force
@@ -424,7 +424,7 @@ CMakeFiles/tp1.elf.dir/home/hernan/SDK_25_06_00_LPC845BREAKOUT/devices/LPC845/dr
 CMakeFiles/tp1.elf.dir/home/hernan/SDK_25_06_00_LPC845BREAKOUT/devices/LPC845/utilities/fsl_syscall_stub.c.obj: CMakeFiles/tp1.elf.dir/flags.make
 CMakeFiles/tp1.elf.dir/home/hernan/SDK_25_06_00_LPC845BREAKOUT/devices/LPC845/utilities/fsl_syscall_stub.c.obj: /home/hernan/SDK_25_06_00_LPC845BREAKOUT/devices/LPC845/utilities/fsl_syscall_stub.c
 CMakeFiles/tp1.elf.dir/home/hernan/SDK_25_06_00_LPC845BREAKOUT/devices/LPC845/utilities/fsl_syscall_stub.c.obj: CMakeFiles/tp1.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/WDbk/Users/Hernan/Documents/UTN/2026/digitales2/real_tp1/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/tp1.elf.dir/home/hernan/SDK_25_06_00_LPC845BREAKOUT/devices/LPC845/utilities/fsl_syscall_stub.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/hernan/Documents/UTN/2026/digitales/real_tp1/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/tp1.elf.dir/home/hernan/SDK_25_06_00_LPC845BREAKOUT/devices/LPC845/utilities/fsl_syscall_stub.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/tp1.elf.dir/home/hernan/SDK_25_06_00_LPC845BREAKOUT/devices/LPC845/utilities/fsl_syscall_stub.c.obj -MF CMakeFiles/tp1.elf.dir/home/hernan/SDK_25_06_00_LPC845BREAKOUT/devices/LPC845/utilities/fsl_syscall_stub.c.obj.d -o CMakeFiles/tp1.elf.dir/home/hernan/SDK_25_06_00_LPC845BREAKOUT/devices/LPC845/utilities/fsl_syscall_stub.c.obj -c /home/hernan/SDK_25_06_00_LPC845BREAKOUT/devices/LPC845/utilities/fsl_syscall_stub.c
 
 CMakeFiles/tp1.elf.dir/home/hernan/SDK_25_06_00_LPC845BREAKOUT/devices/LPC845/utilities/fsl_syscall_stub.c.i: cmake_force
@@ -438,7 +438,7 @@ CMakeFiles/tp1.elf.dir/home/hernan/SDK_25_06_00_LPC845BREAKOUT/devices/LPC845/ut
 CMakeFiles/tp1.elf.dir/home/hernan/SDK_25_06_00_LPC845BREAKOUT/devices/LPC845/utilities/fsl_sbrk.c.obj: CMakeFiles/tp1.elf.dir/flags.make
 CMakeFiles/tp1.elf.dir/home/hernan/SDK_25_06_00_LPC845BREAKOUT/devices/LPC845/utilities/fsl_sbrk.c.obj: /home/hernan/SDK_25_06_00_LPC845BREAKOUT/devices/LPC845/utilities/fsl_sbrk.c
 CMakeFiles/tp1.elf.dir/home/hernan/SDK_25_06_00_LPC845BREAKOUT/devices/LPC845/utilities/fsl_sbrk.c.obj: CMakeFiles/tp1.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/WDbk/Users/Hernan/Documents/UTN/2026/digitales2/real_tp1/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/tp1.elf.dir/home/hernan/SDK_25_06_00_LPC845BREAKOUT/devices/LPC845/utilities/fsl_sbrk.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/hernan/Documents/UTN/2026/digitales/real_tp1/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/tp1.elf.dir/home/hernan/SDK_25_06_00_LPC845BREAKOUT/devices/LPC845/utilities/fsl_sbrk.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/tp1.elf.dir/home/hernan/SDK_25_06_00_LPC845BREAKOUT/devices/LPC845/utilities/fsl_sbrk.c.obj -MF CMakeFiles/tp1.elf.dir/home/hernan/SDK_25_06_00_LPC845BREAKOUT/devices/LPC845/utilities/fsl_sbrk.c.obj.d -o CMakeFiles/tp1.elf.dir/home/hernan/SDK_25_06_00_LPC845BREAKOUT/devices/LPC845/utilities/fsl_sbrk.c.obj -c /home/hernan/SDK_25_06_00_LPC845BREAKOUT/devices/LPC845/utilities/fsl_sbrk.c
 
 CMakeFiles/tp1.elf.dir/home/hernan/SDK_25_06_00_LPC845BREAKOUT/devices/LPC845/utilities/fsl_sbrk.c.i: cmake_force
@@ -452,7 +452,7 @@ CMakeFiles/tp1.elf.dir/home/hernan/SDK_25_06_00_LPC845BREAKOUT/devices/LPC845/ut
 CMakeFiles/tp1.elf.dir/home/hernan/SDK_25_06_00_LPC845BREAKOUT/devices/LPC845/utilities/debug_console_lite/fsl_assert.c.obj: CMakeFiles/tp1.elf.dir/flags.make
 CMakeFiles/tp1.elf.dir/home/hernan/SDK_25_06_00_LPC845BREAKOUT/devices/LPC845/utilities/debug_console_lite/fsl_assert.c.obj: /home/hernan/SDK_25_06_00_LPC845BREAKOUT/devices/LPC845/utilities/debug_console_lite/fsl_assert.c
 CMakeFiles/tp1.elf.dir/home/hernan/SDK_25_06_00_LPC845BREAKOUT/devices/LPC845/utilities/debug_console_lite/fsl_assert.c.obj: CMakeFiles/tp1.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/WDbk/Users/Hernan/Documents/UTN/2026/digitales2/real_tp1/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object CMakeFiles/tp1.elf.dir/home/hernan/SDK_25_06_00_LPC845BREAKOUT/devices/LPC845/utilities/debug_console_lite/fsl_assert.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/hernan/Documents/UTN/2026/digitales/real_tp1/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object CMakeFiles/tp1.elf.dir/home/hernan/SDK_25_06_00_LPC845BREAKOUT/devices/LPC845/utilities/debug_console_lite/fsl_assert.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/tp1.elf.dir/home/hernan/SDK_25_06_00_LPC845BREAKOUT/devices/LPC845/utilities/debug_console_lite/fsl_assert.c.obj -MF CMakeFiles/tp1.elf.dir/home/hernan/SDK_25_06_00_LPC845BREAKOUT/devices/LPC845/utilities/debug_console_lite/fsl_assert.c.obj.d -o CMakeFiles/tp1.elf.dir/home/hernan/SDK_25_06_00_LPC845BREAKOUT/devices/LPC845/utilities/debug_console_lite/fsl_assert.c.obj -c /home/hernan/SDK_25_06_00_LPC845BREAKOUT/devices/LPC845/utilities/debug_console_lite/fsl_assert.c
 
 CMakeFiles/tp1.elf.dir/home/hernan/SDK_25_06_00_LPC845BREAKOUT/devices/LPC845/utilities/debug_console_lite/fsl_assert.c.i: cmake_force
@@ -466,7 +466,7 @@ CMakeFiles/tp1.elf.dir/home/hernan/SDK_25_06_00_LPC845BREAKOUT/devices/LPC845/ut
 CMakeFiles/tp1.elf.dir/home/hernan/SDK_25_06_00_LPC845BREAKOUT/devices/LPC845/utilities/debug_console_lite/fsl_debug_console.c.obj: CMakeFiles/tp1.elf.dir/flags.make
 CMakeFiles/tp1.elf.dir/home/hernan/SDK_25_06_00_LPC845BREAKOUT/devices/LPC845/utilities/debug_console_lite/fsl_debug_console.c.obj: /home/hernan/SDK_25_06_00_LPC845BREAKOUT/devices/LPC845/utilities/debug_console_lite/fsl_debug_console.c
 CMakeFiles/tp1.elf.dir/home/hernan/SDK_25_06_00_LPC845BREAKOUT/devices/LPC845/utilities/debug_console_lite/fsl_debug_console.c.obj: CMakeFiles/tp1.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/WDbk/Users/Hernan/Documents/UTN/2026/digitales2/real_tp1/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/tp1.elf.dir/home/hernan/SDK_25_06_00_LPC845BREAKOUT/devices/LPC845/utilities/debug_console_lite/fsl_debug_console.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/hernan/Documents/UTN/2026/digitales/real_tp1/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/tp1.elf.dir/home/hernan/SDK_25_06_00_LPC845BREAKOUT/devices/LPC845/utilities/debug_console_lite/fsl_debug_console.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/tp1.elf.dir/home/hernan/SDK_25_06_00_LPC845BREAKOUT/devices/LPC845/utilities/debug_console_lite/fsl_debug_console.c.obj -MF CMakeFiles/tp1.elf.dir/home/hernan/SDK_25_06_00_LPC845BREAKOUT/devices/LPC845/utilities/debug_console_lite/fsl_debug_console.c.obj.d -o CMakeFiles/tp1.elf.dir/home/hernan/SDK_25_06_00_LPC845BREAKOUT/devices/LPC845/utilities/debug_console_lite/fsl_debug_console.c.obj -c /home/hernan/SDK_25_06_00_LPC845BREAKOUT/devices/LPC845/utilities/debug_console_lite/fsl_debug_console.c
 
 CMakeFiles/tp1.elf.dir/home/hernan/SDK_25_06_00_LPC845BREAKOUT/devices/LPC845/utilities/debug_console_lite/fsl_debug_console.c.i: cmake_force
@@ -480,7 +480,7 @@ CMakeFiles/tp1.elf.dir/home/hernan/SDK_25_06_00_LPC845BREAKOUT/devices/LPC845/ut
 CMakeFiles/tp1.elf.dir/home/hernan/SDK_25_06_00_LPC845BREAKOUT/devices/LPC845/utilities/str/fsl_str.c.obj: CMakeFiles/tp1.elf.dir/flags.make
 CMakeFiles/tp1.elf.dir/home/hernan/SDK_25_06_00_LPC845BREAKOUT/devices/LPC845/utilities/str/fsl_str.c.obj: /home/hernan/SDK_25_06_00_LPC845BREAKOUT/devices/LPC845/utilities/str/fsl_str.c
 CMakeFiles/tp1.elf.dir/home/hernan/SDK_25_06_00_LPC845BREAKOUT/devices/LPC845/utilities/str/fsl_str.c.obj: CMakeFiles/tp1.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/WDbk/Users/Hernan/Documents/UTN/2026/digitales2/real_tp1/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object CMakeFiles/tp1.elf.dir/home/hernan/SDK_25_06_00_LPC845BREAKOUT/devices/LPC845/utilities/str/fsl_str.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/hernan/Documents/UTN/2026/digitales/real_tp1/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object CMakeFiles/tp1.elf.dir/home/hernan/SDK_25_06_00_LPC845BREAKOUT/devices/LPC845/utilities/str/fsl_str.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/tp1.elf.dir/home/hernan/SDK_25_06_00_LPC845BREAKOUT/devices/LPC845/utilities/str/fsl_str.c.obj -MF CMakeFiles/tp1.elf.dir/home/hernan/SDK_25_06_00_LPC845BREAKOUT/devices/LPC845/utilities/str/fsl_str.c.obj.d -o CMakeFiles/tp1.elf.dir/home/hernan/SDK_25_06_00_LPC845BREAKOUT/devices/LPC845/utilities/str/fsl_str.c.obj -c /home/hernan/SDK_25_06_00_LPC845BREAKOUT/devices/LPC845/utilities/str/fsl_str.c
 
 CMakeFiles/tp1.elf.dir/home/hernan/SDK_25_06_00_LPC845BREAKOUT/devices/LPC845/utilities/str/fsl_str.c.i: cmake_force
@@ -559,9 +559,9 @@ debug/tp1.elf: CMakeFiles/tp1.elf.dir/home/hernan/SDK_25_06_00_LPC845BREAKOUT/de
 debug/tp1.elf: CMakeFiles/tp1.elf.dir/home/hernan/SDK_25_06_00_LPC845BREAKOUT/devices/LPC845/utilities/str/fsl_str.c.obj
 debug/tp1.elf: CMakeFiles/tp1.elf.dir/build.make
 debug/tp1.elf: CMakeFiles/tp1.elf.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/mnt/WDbk/Users/Hernan/Documents/UTN/2026/digitales2/real_tp1/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Linking C executable debug/tp1.elf"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/hernan/Documents/UTN/2026/digitales/real_tp1/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Linking C executable debug/tp1.elf"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/tp1.elf.dir/link.txt --verbose=$(VERBOSE)
-	/usr/bin/arm-none-eabi-objcopy -Obinary /mnt/WDbk/Users/Hernan/Documents/UTN/2026/digitales2/real_tp1/debug/tp1.elf /mnt/WDbk/Users/Hernan/Documents/UTN/2026/digitales2/real_tp1/debug/tp1.bin
+	/usr/bin/arm-none-eabi-objcopy -Obinary /home/hernan/Documents/UTN/2026/digitales/real_tp1/debug/tp1.elf /home/hernan/Documents/UTN/2026/digitales/real_tp1/debug/tp1.bin
 
 # Rule to build all files generated by this target.
 CMakeFiles/tp1.elf.dir/build: debug/tp1.elf
@@ -572,6 +572,6 @@ CMakeFiles/tp1.elf.dir/clean:
 .PHONY : CMakeFiles/tp1.elf.dir/clean
 
 CMakeFiles/tp1.elf.dir/depend:
-	cd /mnt/WDbk/Users/Hernan/Documents/UTN/2026/digitales2/real_tp1 && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /mnt/WDbk/Users/Hernan/Documents/UTN/2026/digitales2/real_tp1 /mnt/WDbk/Users/Hernan/Documents/UTN/2026/digitales2/real_tp1 /mnt/WDbk/Users/Hernan/Documents/UTN/2026/digitales2/real_tp1 /mnt/WDbk/Users/Hernan/Documents/UTN/2026/digitales2/real_tp1 /mnt/WDbk/Users/Hernan/Documents/UTN/2026/digitales2/real_tp1/CMakeFiles/tp1.elf.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/hernan/Documents/UTN/2026/digitales/real_tp1 && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/hernan/Documents/UTN/2026/digitales/real_tp1 /home/hernan/Documents/UTN/2026/digitales/real_tp1 /home/hernan/Documents/UTN/2026/digitales/real_tp1 /home/hernan/Documents/UTN/2026/digitales/real_tp1 /home/hernan/Documents/UTN/2026/digitales/real_tp1/CMakeFiles/tp1.elf.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/tp1.elf.dir/depend
 

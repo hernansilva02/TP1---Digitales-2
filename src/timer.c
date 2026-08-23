@@ -1,15 +1,26 @@
 #include "timer.h"
-#include "fsl_adc.h"
 
-static volatile uint32_t msTicks = 0;
+static volatile uint32_t msTicks = 5000;
+volatile bool TimerReady = false;
 
 void SysTick_Handler(void) {
-    if (msTicks != 0U) {
+    if (msTicks > 0U) {
         msTicks--;
+        if (msTicks == 0 ) {
+            TimerReady = true;
+        }
     }
 }
 
+void Report_Interval_Act(uint32_t interval) {
+    msTicks = interval;
+}
+
+/* Not Needed
 void SysDelay(uint32_t delay) {
     msTicks = delay;
-    while (msTicks != 0U);
+    if (TimerReady) {
+
+    }
 }
+*/

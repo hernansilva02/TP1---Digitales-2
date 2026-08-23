@@ -10,7 +10,7 @@ usart_handle_t usart_handle;
 usart_transfer_t rcv;
 volatile bool RxOngoing = false;
 volatile bool RxBufferEmpty = true;
-uint32_t report_interval = 5;
+uint32_t report_interval = 5UL;
 uint8_t RxData;
 uint8_t CommandBuffer[16] = {0};
 

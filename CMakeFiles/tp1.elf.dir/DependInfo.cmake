@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_ASM
-  "/home/hernan/SDK_25_06_00_LPC845BREAKOUT/devices/LPC845/gcc/startup_LPC845.S" "/mnt/WDbk/Users/Hernan/Documents/UTN/2026/digitales2/real_tp1/CMakeFiles/tp1.elf.dir/home/hernan/SDK_25_06_00_LPC845BREAKOUT/devices/LPC845/gcc/startup_LPC845.S.obj"
+  "/home/hernan/SDK_25_06_00_LPC845BREAKOUT/devices/LPC845/gcc/startup_LPC845.S" "/home/hernan/Documents/UTN/2026/digitales/real_tp1/CMakeFiles/tp1.elf.dir/home/hernan/SDK_25_06_00_LPC845BREAKOUT/devices/LPC845/gcc/startup_LPC845.S.obj"
   )
 set(CMAKE_ASM_COMPILER_ID "GNU")
 
@@ -29,8 +29,8 @@ set(CMAKE_ASM_TARGET_INCLUDE_PATH
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/mnt/WDbk/Users/Hernan/Documents/UTN/2026/digitales2/real_tp1/board.c" "CMakeFiles/tp1.elf.dir/board.c.obj" "gcc" "CMakeFiles/tp1.elf.dir/board.c.obj.d"
-  "/mnt/WDbk/Users/Hernan/Documents/UTN/2026/digitales2/real_tp1/clock_config.c" "CMakeFiles/tp1.elf.dir/clock_config.c.obj" "gcc" "CMakeFiles/tp1.elf.dir/clock_config.c.obj.d"
+  "/home/hernan/Documents/UTN/2026/digitales/real_tp1/board.c" "CMakeFiles/tp1.elf.dir/board.c.obj" "gcc" "CMakeFiles/tp1.elf.dir/board.c.obj.d"
+  "/home/hernan/Documents/UTN/2026/digitales/real_tp1/clock_config.c" "CMakeFiles/tp1.elf.dir/clock_config.c.obj" "gcc" "CMakeFiles/tp1.elf.dir/clock_config.c.obj.d"
   "/home/hernan/SDK_25_06_00_LPC845BREAKOUT/components/uart/fsl_adapter_miniusart.c" "CMakeFiles/tp1.elf.dir/home/hernan/SDK_25_06_00_LPC845BREAKOUT/components/uart/fsl_adapter_miniusart.c.obj" "gcc" "CMakeFiles/tp1.elf.dir/home/hernan/SDK_25_06_00_LPC845BREAKOUT/components/uart/fsl_adapter_miniusart.c.obj.d"
   "/home/hernan/SDK_25_06_00_LPC845BREAKOUT/devices/LPC845/drivers/fsl_adc.c" "CMakeFiles/tp1.elf.dir/home/hernan/SDK_25_06_00_LPC845BREAKOUT/devices/LPC845/drivers/fsl_adc.c.obj" "gcc" "CMakeFiles/tp1.elf.dir/home/hernan/SDK_25_06_00_LPC845BREAKOUT/devices/LPC845/drivers/fsl_adc.c.obj.d"
   "/home/hernan/SDK_25_06_00_LPC845BREAKOUT/devices/LPC845/drivers/fsl_clock.c" "CMakeFiles/tp1.elf.dir/home/hernan/SDK_25_06_00_LPC845BREAKOUT/devices/LPC845/drivers/fsl_clock.c.obj" "gcc" "CMakeFiles/tp1.elf.dir/home/hernan/SDK_25_06_00_LPC845BREAKOUT/devices/LPC845/drivers/fsl_clock.c.obj.d"
@@ -50,14 +50,14 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/hernan/SDK_25_06_00_LPC845BREAKOUT/devices/LPC845/utilities/fsl_sbrk.c" "CMakeFiles/tp1.elf.dir/home/hernan/SDK_25_06_00_LPC845BREAKOUT/devices/LPC845/utilities/fsl_sbrk.c.obj" "gcc" "CMakeFiles/tp1.elf.dir/home/hernan/SDK_25_06_00_LPC845BREAKOUT/devices/LPC845/utilities/fsl_sbrk.c.obj.d"
   "/home/hernan/SDK_25_06_00_LPC845BREAKOUT/devices/LPC845/utilities/fsl_syscall_stub.c" "CMakeFiles/tp1.elf.dir/home/hernan/SDK_25_06_00_LPC845BREAKOUT/devices/LPC845/utilities/fsl_syscall_stub.c.obj" "gcc" "CMakeFiles/tp1.elf.dir/home/hernan/SDK_25_06_00_LPC845BREAKOUT/devices/LPC845/utilities/fsl_syscall_stub.c.obj.d"
   "/home/hernan/SDK_25_06_00_LPC845BREAKOUT/devices/LPC845/utilities/str/fsl_str.c" "CMakeFiles/tp1.elf.dir/home/hernan/SDK_25_06_00_LPC845BREAKOUT/devices/LPC845/utilities/str/fsl_str.c.obj" "gcc" "CMakeFiles/tp1.elf.dir/home/hernan/SDK_25_06_00_LPC845BREAKOUT/devices/LPC845/utilities/str/fsl_str.c.obj.d"
-  "/mnt/WDbk/Users/Hernan/Documents/UTN/2026/digitales2/real_tp1/main.c" "CMakeFiles/tp1.elf.dir/main.c.obj" "gcc" "CMakeFiles/tp1.elf.dir/main.c.obj.d"
-  "/mnt/WDbk/Users/Hernan/Documents/UTN/2026/digitales2/real_tp1/peripherals.c" "CMakeFiles/tp1.elf.dir/peripherals.c.obj" "gcc" "CMakeFiles/tp1.elf.dir/peripherals.c.obj.d"
-  "/mnt/WDbk/Users/Hernan/Documents/UTN/2026/digitales2/real_tp1/pin_mux.c" "CMakeFiles/tp1.elf.dir/pin_mux.c.obj" "gcc" "CMakeFiles/tp1.elf.dir/pin_mux.c.obj.d"
-  "/mnt/WDbk/Users/Hernan/Documents/UTN/2026/digitales2/real_tp1/src/adc.c" "CMakeFiles/tp1.elf.dir/src/adc.c.obj" "gcc" "CMakeFiles/tp1.elf.dir/src/adc.c.obj.d"
-  "/mnt/WDbk/Users/Hernan/Documents/UTN/2026/digitales2/real_tp1/src/button.c" "CMakeFiles/tp1.elf.dir/src/button.c.obj" "gcc" "CMakeFiles/tp1.elf.dir/src/button.c.obj.d"
-  "/mnt/WDbk/Users/Hernan/Documents/UTN/2026/digitales2/real_tp1/src/led.c" "CMakeFiles/tp1.elf.dir/src/led.c.obj" "gcc" "CMakeFiles/tp1.elf.dir/src/led.c.obj.d"
-  "/mnt/WDbk/Users/Hernan/Documents/UTN/2026/digitales2/real_tp1/src/timer.c" "CMakeFiles/tp1.elf.dir/src/timer.c.obj" "gcc" "CMakeFiles/tp1.elf.dir/src/timer.c.obj.d"
-  "/mnt/WDbk/Users/Hernan/Documents/UTN/2026/digitales2/real_tp1/src/usart.c" "CMakeFiles/tp1.elf.dir/src/usart.c.obj" "gcc" "CMakeFiles/tp1.elf.dir/src/usart.c.obj.d"
+  "/home/hernan/Documents/UTN/2026/digitales/real_tp1/main.c" "CMakeFiles/tp1.elf.dir/main.c.obj" "gcc" "CMakeFiles/tp1.elf.dir/main.c.obj.d"
+  "/home/hernan/Documents/UTN/2026/digitales/real_tp1/peripherals.c" "CMakeFiles/tp1.elf.dir/peripherals.c.obj" "gcc" "CMakeFiles/tp1.elf.dir/peripherals.c.obj.d"
+  "/home/hernan/Documents/UTN/2026/digitales/real_tp1/pin_mux.c" "CMakeFiles/tp1.elf.dir/pin_mux.c.obj" "gcc" "CMakeFiles/tp1.elf.dir/pin_mux.c.obj.d"
+  "/home/hernan/Documents/UTN/2026/digitales/real_tp1/src/adc.c" "CMakeFiles/tp1.elf.dir/src/adc.c.obj" "gcc" "CMakeFiles/tp1.elf.dir/src/adc.c.obj.d"
+  "/home/hernan/Documents/UTN/2026/digitales/real_tp1/src/button.c" "CMakeFiles/tp1.elf.dir/src/button.c.obj" "gcc" "CMakeFiles/tp1.elf.dir/src/button.c.obj.d"
+  "/home/hernan/Documents/UTN/2026/digitales/real_tp1/src/led.c" "CMakeFiles/tp1.elf.dir/src/led.c.obj" "gcc" "CMakeFiles/tp1.elf.dir/src/led.c.obj.d"
+  "/home/hernan/Documents/UTN/2026/digitales/real_tp1/src/timer.c" "CMakeFiles/tp1.elf.dir/src/timer.c.obj" "gcc" "CMakeFiles/tp1.elf.dir/src/timer.c.obj.d"
+  "/home/hernan/Documents/UTN/2026/digitales/real_tp1/src/usart.c" "CMakeFiles/tp1.elf.dir/src/usart.c.obj" "gcc" "CMakeFiles/tp1.elf.dir/src/usart.c.obj.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

@@ -51,15 +51,20 @@ void Rcv_Command() {
 
     if (!RxBufferEmpty) {
         RxBufferEmpty = true;
+        USART_WriteBlocking(USART0, &RxData, 1);
         if ((RxData == '\n' || RxData == '\r') && command_idx > 0) {
             CommandBuffer[command_idx] = '\0';
             command_idx = 0;
             if (!strcmp(CommandBuffer, "time 5")) {
                 report_interval = 5;
+                uint8_t text[] = "Report time interval changed to 5 seconds\r\n";
+                USART_WriteBlocking(USART0, text, sizeof(text) - 1);
             } else if (!strcmp(CommandBuffer, "time 10")) {
+                uint8_t text[] = "Report time interval changed to 10 seconds\r\n";
                 report_interval = 10;
+                USART_WriteBlocking(USART0, text, sizeof(text) - 1);
             } else {
-                uint8_t command_not_found[] = "Error. Unknown command\n";
+                uint8_t command_not_found[] = "Error. Unknown command\r\n";
                 USART_WriteBlocking(USART0, command_not_found, sizeof(command_not_found) - 1);
             }
         } else {

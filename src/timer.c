@@ -1,6 +1,6 @@
 #include "timer.h"
 
-static volatile uint32_t msTicks = 5000;
+static volatile uint32_t msTicks = 5000; // Initialized with 5 seconds intervals
 volatile bool TimerReady = false;
 
 void SysTick_Handler(void) {

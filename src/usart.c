@@ -1,6 +1,7 @@
 #include "usart.h"
 #include "fsl_clock.h"
 #include "fsl_usart.h"
+#include "mnt/WDbk/Users/Hernan/Documents/UTN/2026/digitales2/real_tp1/src/button.h"
 #include <stdint.h>
 #include <stdio.h>
 #include <string.h>
@@ -78,6 +79,7 @@ void Rcv_Command() {
     }
 }
 
+
 void Send_Output(uint32_t* amps, uint32_t report_interval_acc) {
     /*
     uint8_t txbuff[] =
@@ -86,7 +88,7 @@ void Send_Output(uint32_t* amps, uint32_t report_interval_acc) {
     USART_WriteBlocking(USART0, txbuff, sizeof(txbuff) - 1);
     */
     uint8_t len;
-    uint8_t buffer[40];
+    uint8_t buffer[40] = {0};
     switch (currentFormat) {
         case FORMAT_AMPS:
             {
@@ -108,5 +110,15 @@ void Send_Output(uint32_t* amps, uint32_t report_interval_acc) {
             USART_WriteBlocking(USART0, buffer, len);
             break;
         }
+    }
+}
+
+void Send_Running_State(bool exec_state) {
+    if (exec_state) {
+        uint8_t buffer[] = "Programmed resumed\r\n";
+        USART_WriteBlocking(USART0, buffer, sizeof(buffer) - 1);
+    } else {
+        uint8_t buffer[] = "Programmed stopped\r\n";
+        USART_WriteBlocking(USART0, buffer, sizeof(buffer) - 1);
     }
 }

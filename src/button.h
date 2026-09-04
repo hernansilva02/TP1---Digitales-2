@@ -8,12 +8,13 @@ typedef enum {
     FORMAT_COST,
 } output_format_t;
 
-#define BUTTON_PORT 0U
-#define BUTTON_PIN  5U
+// #define BUTTON_PORT 0U
+// #define BUTTON_PIN  5U
 
 void Pint_Initialize(void);
 output_format_t Change_Format(void);
 extern volatile bool buttonReady;
+extern volatile bool StartStopButtonReady;
 extern output_format_t currentFormat;
 
 #endif // BUTTON_H

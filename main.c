@@ -5,6 +5,7 @@
 #include "peripherals.h"
 #include "pin_mux.h"
 #include "clock_config.h"
+#include "fsl_usart.h"
 #include "fsl_device_registers.h"
 #include "fsl_power.h"
 #include "fsl_gpio.h"
@@ -29,6 +30,7 @@ void BOARD_InitHardware(void) {
 int main() {
     uint32_t amps[2] = {0};
     uint32_t report_interval_acc = 0;
+    bool exec_state = true;
     BOARD_InitHardware();
     leds_initialize();
     SysTick_Config(SystemCoreClock / 1000U);
@@ -37,6 +39,17 @@ int main() {
     USART_Inititalization();
     NVIC_EnableIRQ(ADC0_SEQA_IRQn);
     while (1) {
+        if (StartStopButtonReady) {
+            StartStopButtonReady = false;
+            exec_state = !exec_state;
+            report_interval_acc = 0;
+            Send_Running_State(exec_state);
+        }
+
+        if (!exec_state) {
+            continue;
+        }
+
         ADC_DoSoftwareTriggerConvSeqA(ADC0);
         if (conversionReady) {
             conversionReady = false;

@@ -11,5 +11,6 @@ extern uint32_t report_interval;
 void USART_Inititalization(void);
 void Send_Output(uint32_t* amps, uint32_t time);
 void Rcv_Command();
+void Send_Running_State(bool exec_state);
 
 #endif // MY_USRT_H
